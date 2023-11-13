@@ -1,0 +1,355 @@
+{
+    "Addons": [
+        {
+            "Checksums": {
+                "AdiBags": "411e045f115c335201f49ef606d0c0df",
+                "AdiBags_Config": "691c4c823c9c583a56b4d79c209b551e"
+            },
+            "Directories": [
+                "AdiBags_Config",
+                "AdiBags"
+            ],
+            "Name": "AdiBags",
+            "URL": "https://github.com/AdiAddons/AdiBags",
+            "Version": "v1.9.36"
+        },
+        {
+            "Checksums": {
+                "BlizzMove": "a897058db90797c01244293bf24c4d05",
+                "BlizzMove_Debug": "8b742a86d87098a659256c3142f105a8"
+            },
+            "Directories": [
+                "BlizzMove_Debug",
+                "BlizzMove"
+            ],
+            "Name": "BlizzMove",
+            "URL": "https://www.wowinterface.com/downloads/info23875-BlizzMove.html",
+            "Version": "v3.4.4"
+        },
+        {
+            "Checksums": {
+                "FriendColor": "e870b1253bfa4f162f16271fe3e669ed"
+            },
+            "Directories": [
+                "FriendColor"
+            ],
+            "Name": "Friend Color",
+            "URL": "https://www.wowinterface.com/downloads/info8679-FriendColor.html",
+            "Version": "80200"
+        },
+        {
+            "Checksums": {
+                "HandyNotes": "6174d1d7b26ff9e3b5deac9565f2687e"
+            },
+            "Directories": [
+                "HandyNotes"
+            ],
+            "Name": "HandyNotes",
+            "URL": "https://www.wowinterface.com/downloads/info15716-HandyNotes.html",
+            "Version": "v1.6.6"
+        },
+        {
+            "Checksums": {
+                "HandyNotes_Shadowlands": "a7f5707aa9220e22fd4352bfc02334b1"
+            },
+            "Directories": [
+                "HandyNotes_Shadowlands"
+            ],
+            "Name": "HandyNotes: Shadowlands",
+            "URL": "https://www.wowinterface.com/downloads/info25828-HandyNotesShadowlands.html",
+            "Version": "v47"
+        },
+        {
+            "Checksums": {
+                "Masque": "5e9a019e1e25b8f6f4bc70b8d278d7e3"
+            },
+            "Directories": [
+                "Masque"
+            ],
+            "Name": "Masque",
+            "URL": "https://www.wowinterface.com/downloads/info12097-Masque.html",
+            "Version": "9.2.7"
+        },
+        {
+            "Checksums": {
+                "Masque_Raeli": "3c31853579472b28f119845eee989174"
+            },
+            "Directories": [
+                "Masque_Raeli"
+            ],
+            "Name": "Masque: Raeli",
+            "URL": "https://www.wowinterface.com/downloads/info25719-MasqueRaeli.html",
+            "Version": "r25-release"
+        },
+        {
+            "Checksums": {
+                "GlobalSearch": "c41690fd39df2beb0491bb5d9c114311"
+            },
+            "Directories": [
+                "GlobalSearch"
+            ],
+            "Name": "Global Search",
+            "URL": "https://www.wowinterface.com/downloads/info26354-GlobalSearch.html",
+            "Version": "v0.13.0"
+        },
+        {
+            "Checksums": {
+                "WeakAuras": "5a58acbf623545b888d1ef80edec8162",
+                "WeakAurasArchive": "4ccc492cf05aad826cc7a09472ee7eb6",
+                "WeakAurasModelPaths": "d7855f091d0689bd50d1efbba50c6982",
+                "WeakAurasOptions": "618b35ae43fed5803743dc7140cd74f0",
+                "WeakAurasTemplates": "4c6d43fe4b66cce7cbc3e7f806803a6d"
+            },
+            "Directories": [
+                "WeakAurasOptions",
+                "WeakAurasTemplates",
+                "WeakAurasArchive",
+                "WeakAuras",
+                "WeakAurasModelPaths"
+            ],
+            "Name": "WeakAuras 2",
+            "URL": "https://www.wowinterface.com/downloads/info24910-WeakAuras2.html",
+            "Version": "4.1.2"
+        },
+        {
+            "Checksums": {
+                "TinyPad": "0006d04aace09776039736486d5e25c2"
+            },
+            "Directories": [
+                "TinyPad"
+            ],
+            "Name": "TinyPad",
+            "URL": "https://www.wowinterface.com/downloads/info4417-TinyPad.html",
+            "Version": "3.0.20"
+        },
+        {
+            "Checksums": {
+                "Ace3": "865d8834277c3a05d9402be41c89eecf"
+            },
+            "Directories": [
+                "Ace3"
+            ],
+            "Name": "Ace3",
+            "URL": "https://www.wowinterface.com/downloads/info14898-Ace3.html",
+            "Version": "Release r1166"
+        },
+        {
+            "Checksums": {
+                "TomTom": "2cb80441a9e2386d7a4de1d82015914b"
+            },
+            "Directories": [
+                "TomTom"
+            ],
+            "Name": "TomTom",
+            "URL": "https://www.wowinterface.com/downloads/info7032-TomTom.html",
+            "Version": "v3.1.4"
+        },
+        {
+            "Checksums": {
+                "BigWigs": "3a01ea0ed9a4ff07ea15a7a669df026b",
+                "BigWigs_CastleNathria": "b364ac99e8f7bfdf1eea98f6119af6a8",
+                "BigWigs_Core": "c3aeb4e46bca2571dc957e330d24facd",
+                "BigWigs_Options": "aee0432c32c5cb2089f1c95b56fbd443",
+                "BigWigs_Plugins": "03d2dbc86211e6afa62e4b0a325d413a",
+                "BigWigs_SanctumOfDomination": "5cb3354530dcd0ee8c6a4188d8d7f932",
+                "BigWigs_SepulcherOfTheFirstOnes": "56457c5bf69ac635fe4d17422aec2be6",
+                "BigWigs_Shadowlands": "d74bee89107d30fad275d65cc01f8166"
+            },
+            "Directories": [
+                "BigWigs_Shadowlands",
+                "BigWigs_Options",
+                "BigWigs_SepulcherOfTheFirstOnes",
+                "BigWigs_SanctumOfDomination",
+                "BigWigs_CastleNathria",
+                "BigWigs",
+                "BigWigs_Plugins",
+                "BigWigs_Core"
+            ],
+            "Name": "BigWigs Bossmods",
+            "URL": "https://www.wowinterface.com/downloads/info5086-BigWigsBossmods.html",
+            "Version": "v246.2"
+        },
+        {
+            "Checksums": {
+                "DejaCharacterStats": "c4441d2ba86a031411616c983aa05343"
+            },
+            "Directories": [
+                "DejaCharacterStats"
+            ],
+            "Name": "DejaCharacterStats",
+            "URL": "https://www.wowinterface.com/downloads/info24060-DejaCharacterStats.html",
+            "Version": "R90205r1"
+        },
+        {
+            "Checksums": {
+                "Dominos": "8ee3bdaaeb8ffd3563ca4803a53521bf",
+                "Dominos_Cast": "a1ed6b9fae478e40656c255a2d717545",
+                "Dominos_Config": "685c122b7a568f3fe6432cdc68bcf7cf",
+                "Dominos_Encounter": "5fa8038a8511faa94e5a7625c31886dc",
+                "Dominos_Progress": "aaf4e6c4433bec4e2b9eee76a87a88ca",
+                "Dominos_Roll": "ff3ce029798963ca6e7ae5656c1493bc"
+            },
+            "Directories": [
+                "Dominos_Config",
+                "Dominos_Roll",
+                "Dominos_Encounter",
+                "Dominos",
+                "Dominos_Cast",
+                "Dominos_Progress"
+            ],
+            "Name": "Dominos",
+            "URL": "https://www.wowinterface.com/downloads/info9085-Dominos.html",
+            "Version": "9.3.4"
+        },
+        {
+            "Checksums": {
+                "MaxCam": "9da4c52c4472b9495e180b4750b2464c"
+            },
+            "Directories": [
+                "MaxCam"
+            ],
+            "Name": "MaxCam",
+            "URL": "https://www.wowinterface.com/downloads/info24111-MaxCam.html",
+            "Version": "v2.5.9"
+        },
+        {
+            "Checksums": {
+                "SimpleMap": "64c64ef0fb3c43e304b2138c8ad6b71c"
+            },
+            "Directories": [
+                "SimpleMap"
+            ],
+            "Name": "SimpleMap",
+            "URL": "https://www.wowinterface.com/downloads/info25095-SimpleMap.html",
+            "Version": "1.2.1"
+        },
+        {
+            "Checksums": {
+                "Quartz": "f705432b9ef81ad70727763ec8fb16a6"
+            },
+            "Directories": [
+                "Quartz"
+            ],
+            "Name": "Quartz - Modular Casting Bar",
+            "URL": "https://www.wowinterface.com/downloads/info7158-Quartz-ModularCastingBar.html",
+            "Version": "3.6.12"
+        },
+        {
+            "Checksums": {
+                "premade-filter": "7aae90bef8a97a4e101176016d7162c0"
+            },
+            "Directories": [
+                "premade-filter"
+            ],
+            "Name": "Premade Filter",
+            "URL": "https://www.wowinterface.com/downloads/info23387-PremadeFilter.html",
+            "Version": "1.9.6"
+        },
+        {
+            "Checksums": {
+                "REFlex": "82adc7a0b4d6fcfa28ad6ae4ba432f49"
+            },
+            "Directories": [
+                "REFlex"
+            ],
+            "Name": "REFlex - Arena/Battleground Historian",
+            "URL": "https://www.wowinterface.com/downloads/info19190-REFlex-ArenaBattlegroundHistorian.html",
+            "Version": "v3.1.10"
+        },
+        {
+            "Checksums": {
+                "SlashIn": "8f93d26d9f89870f7c75d6bd6ac7dec7"
+            },
+            "Directories": [
+                "SlashIn"
+            ],
+            "Name": "SlashIn ( /in )",
+            "URL": "https://www.wowinterface.com/downloads/info18054-SlashInin.html",
+            "Version": "v9.2.4"
+        },
+        {
+            "Checksums": {
+                "BugSack": "b6cbea9b8d1df931be65dcd5544d9870"
+            },
+            "Directories": [
+                "BugSack"
+            ],
+            "Name": "BugSack",
+            "URL": "https://www.wowinterface.com/downloads/info5995-BugSack.html",
+            "Version": "v9.2.5"
+        },
+        {
+            "Checksums": {
+                "Clique": "6584f5d4c544a890f4705ba84192dece"
+            },
+            "Directories": [
+                "Clique"
+            ],
+            "Name": "Clique",
+            "URL": "https://www.wowinterface.com/downloads/info5108-Clique.html",
+            "Version": "v3.3.0"
+        },
+        {
+            "Checksums": {
+                "CovenantMissionHelper": "56e77ce3b72cc65d44cda970c19d36f3"
+            },
+            "Directories": [
+                "CovenantMissionHelper"
+            ],
+            "Name": "CovenantMissionHelper",
+            "URL": "https://www.wowinterface.com/downloads/info25868-CovenantMissionHelper.html",
+            "Version": "3.3.0"
+        },
+        {
+            "Checksums": {
+                "!BugGrabber": "f746f1d0ac394f7b3d7987479d8564a2"
+            },
+            "Directories": [
+                "!BugGrabber"
+            ],
+            "Name": "!BugGrabber",
+            "URL": "https://www.wowinterface.com/downloads/info23141-BugGrabber.html",
+            "Version": "v9.2.2"
+        },
+        {
+            "Checksums": {
+                "Details": "41965404b8814cbd03ad3c3694420a36",
+                "Details_DataStorage": "3eeebe4e914fc42bb545c5121cb6e17b",
+                "Details_EncounterDetails": "7a2ecd16a66509ade4c925aa4b5714f3",
+                "Details_RaidCheck": "02ab4f0922888be06c0db61dc00fd19e",
+                "Details_Streamer": "567efe9bffe352df995e5a5b34777e32",
+                "Details_TinyThreat": "047cf3010313a5334419a41886b21138",
+                "Details_Vanguard": "ed2fbea98d381f008b7acbcf2096342d"
+            },
+            "Directories": [
+                "Details_RaidCheck",
+                "Details_TinyThreat",
+                "Details",
+                "Details_EncounterDetails",
+                "Details_Vanguard",
+                "Details_DataStorage",
+                "Details_Streamer"
+            ],
+            "Name": "Details! Damage Meter",
+            "URL": "https://www.wowinterface.com/downloads/info23056-DetailsDamageMeter.html",
+            "Version": "DetailsRetail-v8.2.5.7229.140"
+        }
+    ],
+    "AutoUpdate": true,
+    "Backup": {
+        "Enabled": true,
+        "Number": 7
+    },
+    "CBCompanionVersion": 4,
+    "CompactMode": false,
+    "GHAPIKey": "",
+    "IgnoreClientVersion": {},
+    "ShowAuthors": true,
+    "ShowSources": false,
+    "Version": "4.3.0",
+    "WAAAPIKey": "",
+    "WAAPIKey": "",
+    "WAAccountName": "113525152#1",
+    "WAStash": [],
+    "WAUsername": ""
+}

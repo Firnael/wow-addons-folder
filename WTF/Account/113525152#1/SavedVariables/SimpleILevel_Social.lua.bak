@@ -1,0 +1,14 @@
+
+SIL_Social = {
+	["profileKeys"] = {
+		["Croclardon - Ysondre"] = "Default",
+		["Jesuisgentil - Ysondre"] = "Default",
+		["Laitmeumeu - Ysondre"] = "Default",
+		["Kikouyou - Ysondre"] = "Default",
+		["Tyrance - Ysondre"] = "Default",
+		["Kisskouille - Ysondre"] = "Default",
+		["Colèrecolère - Ysondre"] = "Default",
+		["Coloss - Ysondre"] = "Default",
+		["Roulbouboule - Ysondre"] = "Default",
+	},
+}

@@ -1,0 +1,2 @@
+
+NameplateSCTDB = nil

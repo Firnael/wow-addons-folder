@@ -1,0 +1,2251 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 5,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006683,
+							["total"] = 25.006683,
+							["damage_from"] = {
+								["Envahisseur mâcheroc"] = true,
+							},
+							["targets"] = {
+								["Envahisseur mâcheroc"] = 25,
+							},
+							["pets"] = {
+							},
+							["spec"] = 1452,
+							["colocacao"] = 1,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 25.006683,
+							["friendlyfire"] = {
+							},
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1663439651,
+							["friendlyfire_total"] = 0,
+							["aID"] = "1335-09DD3544",
+							["nome"] = "Kisskouille",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[585] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9,
+										["targets"] = {
+											["Envahisseur mâcheroc"] = 25,
+										},
+										["n_dmg"] = 25,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 25,
+										["c_max"] = 0,
+										["id"] = 585,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1335-09DD3544",
+							["last_dps"] = 4.496796079852299,
+							["custom"] = 0,
+							["last_event"] = 1663439651,
+							["damage_taken"] = 6.006683000000001,
+							["start_time"] = 1663439646,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.002876,
+							["damage_from"] = {
+								["Kisskouille"] = true,
+							},
+							["targets"] = {
+								["Kisskouille"] = 6,
+								["Défenseur de Froidebrume"] = 1,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 7.002876000000001,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1663439651,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Envahisseur mâcheroc",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3,
+										["targets"] = {
+											["Kisskouille"] = 6,
+											["Défenseur de Froidebrume"] = 1,
+										},
+										["n_dmg"] = 7,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 7,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["DODGE"] = 2,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "37070",
+							["total"] = 7.002876000000001,
+							["serial"] = "Creature-0-4245-0-30-37070-000026129E",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1663439656,
+							["damage_taken"] = 25.002876,
+							["start_time"] = 1663439647,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 5,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 5,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 5,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["nome"] = "Kisskouille",
+							["spec"] = 1452,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["classe"] = "PRIEST",
+							["spell_cast"] = {
+								[585] = 2,
+							},
+							["tipo"] = 4,
+							["aID"] = "1335-09DD3544",
+							["serial"] = "Player-1335-09DD3544",
+							["last_event"] = 0,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 5,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kisskouille"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Kisskouille", -- [1]
+				},
+				["tempo_start"] = 1663439646,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 8,
+				["playing_solo"] = true,
+				["totals"] = {
+					31.99244, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					25, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "20:34:11",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Envahisseur mâcheroc",
+				["TotalElapsedCombatTime"] = 523966.464,
+				["CombatEndedAt"] = 523966.464,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kisskouille"] = 25.006683,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 523966.464,
+				["combat_id"] = 5,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["overall_added"] = true,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "20:34:06",
+				["start_time"] = 523960.563,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Envahisseur mâcheroc"] = 2,
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 4,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00383,
+							["damage_from"] = {
+								["Envahisseur mâcheroc"] = true,
+							},
+							["targets"] = {
+								["Envahisseur mâcheroc"] = 26,
+							},
+							["pets"] = {
+							},
+							["total"] = 26.00383,
+							["on_hold"] = false,
+							["aID"] = "1335-09DD3544",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 26.00383,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1663439636,
+							["classe"] = "PRIEST",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Kisskouille",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1,
+										["targets"] = {
+											["Envahisseur mâcheroc"] = 1,
+										},
+										["n_dmg"] = 1,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[585] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9,
+										["targets"] = {
+											["Envahisseur mâcheroc"] = 25,
+										},
+										["n_dmg"] = 25,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 25,
+										["c_max"] = 0,
+										["id"] = 585,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1452,
+							["serial"] = "Player-1335-09DD3544",
+							["last_dps"] = 4.627016014238709,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 4.00383,
+							["start_time"] = 1663439630,
+							["delay"] = 0,
+							["last_event"] = 1663439636,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.007763,
+							["damage_from"] = {
+								["Défenseur de Froidebrume"] = true,
+								["Joren Troupefer"] = true,
+								["Kisskouille"] = true,
+							},
+							["targets"] = {
+								["Joren Troupefer"] = 1,
+								["Défenseur de Froidebrume"] = 1,
+								["Kisskouille"] = 4,
+							},
+							["aID"] = "37070",
+							["pets"] = {
+							},
+							["end_time"] = 1663439646,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 6.007763,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 6.007763,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Envahisseur mâcheroc",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4,
+										["targets"] = {
+											["Défenseur de Froidebrume"] = 1,
+											["Joren Troupefer"] = 1,
+											["Kisskouille"] = 4,
+										},
+										["n_dmg"] = 6,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 6,
+										["c_max"] = 0,
+										["DODGE"] = 3,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-4245-0-30-37070-00002612D3",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1663439645,
+							["damage_taken"] = 32.007763,
+							["start_time"] = 1663439635,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 4,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 4,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 4,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["nome"] = "Kisskouille",
+							["spec"] = 1452,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["classe"] = "PRIEST",
+							["spell_cast"] = {
+								[585] = 3,
+							},
+							["tipo"] = 4,
+							["aID"] = "1335-09DD3544",
+							["serial"] = "Player-1335-09DD3544",
+							["last_event"] = 0,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 4,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kisskouille"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Kisskouille", -- [1]
+				},
+				["CombatStartedAt"] = 523960.563,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7,
+				["playing_solo"] = true,
+				["totals"] = {
+					31.987828, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "20:33:57",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Envahisseur mâcheroc",
+				["TotalElapsedCombatTime"] = 5.619999999995343,
+				["CombatEndedAt"] = 523951.808,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "20:33:51",
+				["end_time"] = 523951.808,
+				["combat_id"] = 4,
+				["tempo_start"] = 1663439630,
+				["frags"] = {
+					["Envahisseur mâcheroc"] = 2,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					26, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kisskouille"] = 26.00383,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 523946.188,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 3,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008875,
+							["damage_from"] = {
+								["Envahisseur mâcheroc"] = true,
+							},
+							["targets"] = {
+								["Envahisseur mâcheroc"] = 25,
+							},
+							["pets"] = {
+							},
+							["total"] = 25.008875,
+							["on_hold"] = false,
+							["aID"] = "1335-09DD3544",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 25.008875,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1663439618,
+							["classe"] = "PRIEST",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Kisskouille",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1,
+										["targets"] = {
+											["Envahisseur mâcheroc"] = 1,
+										},
+										["n_dmg"] = 1,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[585] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8,
+										["targets"] = {
+											["Envahisseur mâcheroc"] = 24,
+										},
+										["n_dmg"] = 24,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 24,
+										["c_max"] = 0,
+										["id"] = 585,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1452,
+							["serial"] = "Player-1335-09DD3544",
+							["last_dps"] = 3.705018518518518,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 13.008875,
+							["start_time"] = 1663439610,
+							["delay"] = 0,
+							["last_event"] = 1663439617,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.001638,
+							["damage_from"] = {
+								["Kisskouille"] = true,
+							},
+							["targets"] = {
+								["Kisskouille"] = 13,
+							},
+							["pets"] = {
+							},
+							["total"] = 13.001638,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 13.001638,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1663439618,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Envahisseur mâcheroc",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 13,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Kisskouille"] = 13,
+											["Défenseur de Froidebrume"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 13,
+										["c_max"] = 7,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 5,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 6,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "37070",
+							["serial"] = "Creature-0-4245-0-30-37070-0000260D58",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1663439627,
+							["damage_taken"] = 25.001638,
+							["start_time"] = 1663439613,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 3,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 3,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 3,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["nome"] = "Kisskouille",
+							["spec"] = 1452,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["classe"] = "PRIEST",
+							["spell_cast"] = {
+								[585] = 3,
+							},
+							["tipo"] = 4,
+							["aID"] = "1335-09DD3544",
+							["serial"] = "Player-1335-09DD3544",
+							["last_event"] = 0,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 3,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kisskouille"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Kisskouille", -- [1]
+				},
+				["CombatStartedAt"] = 523926.278,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 6,
+				["playing_solo"] = true,
+				["totals"] = {
+					37.99528, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "20:33:39",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Envahisseur mâcheroc",
+				["TotalElapsedCombatTime"] = 7.360000000044238,
+				["CombatEndedAt"] = 523933.638,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "20:33:31",
+				["end_time"] = 523933.638,
+				["combat_id"] = 3,
+				["tempo_start"] = 1663439610,
+				["frags"] = {
+					["Envahisseur mâcheroc"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					25, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kisskouille"] = 25.008875,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 523926.168,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00201,
+							["damage_from"] = {
+								["Envahisseur mâcheroc"] = true,
+							},
+							["targets"] = {
+								["Envahisseur mâcheroc"] = 25,
+							},
+							["pets"] = {
+							},
+							["total"] = 25.00201,
+							["on_hold"] = false,
+							["aID"] = "1335-09DD3544",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 25.00201,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1663439594,
+							["classe"] = "PRIEST",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Kisskouille",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1,
+										["targets"] = {
+											["Envahisseur mâcheroc"] = 1,
+										},
+										["n_dmg"] = 1,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[585] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8,
+										["targets"] = {
+											["Envahisseur mâcheroc"] = 24,
+										},
+										["n_dmg"] = 24,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 24,
+										["c_max"] = 0,
+										["id"] = 585,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1452,
+							["serial"] = "Player-1335-09DD3544",
+							["last_dps"] = 3.086286878153965,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 19.00201,
+							["start_time"] = 1663439586,
+							["delay"] = 0,
+							["last_event"] = 1663439594,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.008103,
+							["damage_from"] = {
+								["Défenseur de Froidebrume"] = true,
+								["Montagnard des Frigères"] = true,
+								["Kisskouille"] = true,
+							},
+							["targets"] = {
+								["Défenseur de Froidebrume"] = 1,
+								["Kisskouille"] = 19,
+							},
+							["total"] = 20.008103,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 20.008103,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1663439610,
+							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Envahisseur mâcheroc",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5,
+										["targets"] = {
+											["Montagnard des Frigères"] = 0,
+											["Défenseur de Froidebrume"] = 1,
+											["Joren Troupefer"] = 0,
+											["Kisskouille"] = 19,
+										},
+										["n_dmg"] = 20,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["MISS"] = 3,
+										["total"] = 20,
+										["c_max"] = 0,
+										["DODGE"] = 3,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "37070",
+							["serial"] = "Creature-0-4245-0-30-37070-0000A60616",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1663439609,
+							["damage_taken"] = 41.008103,
+							["start_time"] = 1663439588,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 2,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 2,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 2,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["nome"] = "Kisskouille",
+							["spec"] = 1452,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["classe"] = "PRIEST",
+							["spell_cast"] = {
+								[585] = 2,
+							},
+							["tipo"] = 4,
+							["aID"] = "1335-09DD3544",
+							["serial"] = "Player-1335-09DD3544",
+							["last_event"] = 0,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kisskouille"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Kisskouille", -- [1]
+				},
+				["tempo_start"] = 1663439586,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 5,
+				["playing_solo"] = true,
+				["totals"] = {
+					44.99050199999999, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					25, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "20:33:14",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Envahisseur mâcheroc",
+				["TotalElapsedCombatTime"] = 523909.236,
+				["CombatEndedAt"] = 523909.236,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kisskouille"] = 25.00201,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 523909.236,
+				["combat_id"] = 2,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["overall_added"] = true,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "20:33:06",
+				["start_time"] = 523901.135,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Envahisseur mâcheroc"] = 1,
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004867,
+							["spec"] = 1452,
+							["damage_from"] = {
+								["Envahisseur mâcheroc"] = true,
+							},
+							["targets"] = {
+								["Envahisseur mâcheroc"] = 24,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["end_time"] = 1663439569,
+							["aID"] = "1335-09DD3544",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 24.004867,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["total"] = 24.004867,
+							["classe"] = "PRIEST",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Kisskouille",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[585] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8,
+										["targets"] = {
+											["Envahisseur mâcheroc"] = 24,
+										},
+										["n_dmg"] = 24,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 24,
+										["c_max"] = 0,
+										["id"] = 585,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1335-09DD3544",
+							["last_dps"] = 3.575877699991057,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 12.004867,
+							["start_time"] = 1663439562,
+							["delay"] = 0,
+							["last_event"] = 1663439568,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.003139,
+							["damage_from"] = {
+								["Défenseur de Froidebrume"] = true,
+								["Joren Troupefer"] = true,
+								["Kisskouille"] = true,
+							},
+							["targets"] = {
+								["Joren Troupefer"] = 1,
+								["Défenseur de Froidebrume"] = 4,
+								["Kisskouille"] = 12,
+							},
+							["pets"] = {
+							},
+							["total"] = 17.003139,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 17.003139,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1663439586,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Envahisseur mâcheroc",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4,
+										["targets"] = {
+											["Défenseur de Froidebrume"] = 4,
+											["Joren Troupefer"] = 1,
+											["Kisskouille"] = 12,
+										},
+										["n_dmg"] = 17,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 17,
+										["a_dmg"] = 0,
+										["total"] = 17,
+										["c_max"] = 0,
+										["DODGE"] = 4,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 2,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 3,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 8,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "37070",
+							["serial"] = "Creature-0-4245-0-30-37070-000026067C",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1663439585,
+							["damage_taken"] = 41.003139,
+							["start_time"] = 1663439564,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["nome"] = "Kisskouille",
+							["spec"] = 1452,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["classe"] = "PRIEST",
+							["spell_cast"] = {
+								[585] = 2,
+							},
+							["tipo"] = 4,
+							["aID"] = "1335-09DD3544",
+							["serial"] = "Player-1335-09DD3544",
+							["last_event"] = 0,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kisskouille"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Kisskouille", -- [1]
+				},
+				["CombatStartedAt"] = 523901.135,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 4,
+				["playing_solo"] = true,
+				["totals"] = {
+					40.982955, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "20:32:49",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Envahisseur mâcheroc",
+				["TotalElapsedCombatTime"] = 523883.715,
+				["CombatEndedAt"] = 523883.715,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "20:32:42",
+				["end_time"] = 523883.715,
+				["combat_id"] = 1,
+				["tempo_start"] = 1663439562,
+				["frags"] = {
+					["Envahisseur mâcheroc"] = 2,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					24, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kisskouille"] = 24.004867,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 523877.002,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [5]
+		},
+	},
+	["ocd_tracker"] = {
+		["enabled"] = false,
+		["current_cooldowns"] = {
+		},
+		["lines_per_column"] = 12,
+		["show_options"] = false,
+		["filters"] = {
+			["defensive-raid"] = false,
+			["ofensive"] = true,
+			["defensive-target"] = false,
+			["utility"] = false,
+			["defensive-personal"] = false,
+		},
+		["width"] = 120,
+		["height"] = 18,
+		["framme_locked"] = false,
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["cooldowns"] = {
+		},
+		["pos"] = {
+		},
+	},
+	["last_version"] = "9.2.710018",
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["tabela_instancias"] = {
+	},
+	["coach"] = {
+		["enabled"] = false,
+		["welcome_panel_pos"] = {
+		},
+		["last_coach_name"] = false,
+	},
+	["on_death_menu"] = false,
+	["cached_talents"] = {
+	},
+	["last_instance_id"] = 0,
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Default",
+	["last_realversion"] = 146,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["enabled"] = true,
+			["animate"] = false,
+			["hide_pull_bar"] = false,
+			["author"] = "Terciob",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["usefocus"] = false,
+			["updatespeed"] = 1,
+			["disable_gouge"] = false,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["absolute_mode"] = false,
+			["playSound"] = false,
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["useclasscolors"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Terciob",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["tank_block_size_height"] = 50,
+			["show_power_bar"] = false,
+			["first_run"] = false,
+			["aura_timer_text_size"] = 14,
+			["tank_block_castbar_size_height"] = 16,
+			["show_health_bar"] = true,
+			["aura_offset_y"] = 0,
+			["enabled"] = true,
+			["show_cast_bar"] = false,
+			["author"] = "Terciob",
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_height"] = 40,
+			["tank_block_color"] = {
+				0.074509, -- [1]
+				0.035294, -- [2]
+				0.035294, -- [3]
+				0.832845, -- [4]
+			},
+			["tank_block_powerbar_size_height"] = 10,
+			["show_inc_bars"] = true,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["last_section_selected"] = "main",
+			["author"] = "Terciob",
+			["window_scale"] = 1,
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["encounter_timers_dbm"] = {
+			},
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+			["is_first_run"] = false,
+			["grow_direction"] = "right",
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				299.9999694824219, -- [1]
+				500.0000610351563, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 153.6495039438894,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["scale"] = 1,
+			["arrow_anchor_x"] = 0,
+			["point"] = "CENTER",
+			["row_texture"] = "Details Serenity",
+			["y"] = 6.103515625e-05,
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_height"] = 20,
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["use_spark"] = true,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 9.1552734375e-05,
+				["x"] = 6.103515625e-05,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+				["attribute_type"] = 1,
+			},
+			["x"] = 6.103515625e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["arrow_anchor_y"] = 0,
+			["font_size"] = 10,
+			["main_frame_locked"] = false,
+			["author"] = "Details! Team",
+		},
+	},
+	["last_day"] = "17",
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = false,
+			["isLocked"] = false,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[3] = 2,
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -522.4998397827148,
+					["x"] = 639.58447265625,
+					["w"] = 284.1665649414063,
+					["h"] = 155.0001983642578,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = false,
+			["isLocked"] = false,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				1, -- [1]
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -522.4998397827148,
+					["x"] = 923.751220703125,
+					["w"] = 284.166748046875,
+					["h"] = 155.0001983642578,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+	},
+	["last_instance_time"] = 0,
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["cached_roles"] = {
+	},
+	["ignore_nicktag"] = false,
+	["combat_id"] = 5,
+	["savedStyles"] = {
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1664735373,
+		["last_version"] = 14,
+	},
+	["combat_counter"] = 8,
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.030061,
+					["damage_from"] = {
+						["Envahisseur mâcheroc"] = true,
+					},
+					["targets"] = {
+						["Envahisseur mâcheroc"] = 125,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["classe"] = "PRIEST",
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 125.030061,
+					["end_time"] = 1663439569,
+					["friendlyfire"] = {
+					},
+					["dps_started"] = false,
+					["total"] = 125.030061,
+					["aID"] = "1335-09DD3544",
+					["last_event"] = 0,
+					["nome"] = "Kisskouille",
+					["spec"] = 1452,
+					["grupo"] = true,
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1,
+								["targets"] = {
+									["Envahisseur mâcheroc"] = 3,
+								},
+								["n_dmg"] = 3,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 3,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 3,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[585] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 9,
+								["targets"] = {
+									["Envahisseur mâcheroc"] = 122,
+								},
+								["n_dmg"] = 122,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 15,
+								["total"] = 122,
+								["c_max"] = 0,
+								["id"] = 585,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 15,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["serial"] = "Player-1335-09DD3544",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 54.030061,
+					["start_time"] = 1663439532,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.032436,
+					["damage_from"] = {
+						["Kisskouille"] = true,
+						["Défenseur de Froidebrume"] = true,
+					},
+					["targets"] = {
+						["Défenseur de Froidebrume"] = 1,
+						["Kisskouille"] = 54,
+					},
+					["pets"] = {
+					},
+					["end_time"] = 1663439569,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 55.032436,
+					["last_event"] = 0,
+					["aID"] = "37070",
+					["dps_started"] = false,
+					["total"] = 55.032436,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Envahisseur mâcheroc",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 13,
+								["g_amt"] = 0,
+								["n_max"] = 5,
+								["targets"] = {
+									["Défenseur de Froidebrume"] = 1,
+									["Kisskouille"] = 54,
+								},
+								["n_dmg"] = 42,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 18,
+								["total"] = 55,
+								["c_max"] = 7,
+								["a_dmg"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 2,
+								["DODGE"] = 1,
+								["extra"] = {
+								},
+								["PARRY"] = 2,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 11,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
+					["serial"] = "Creature-0-4245-0-30-37070-000026067C",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1663439545,
+					["delay"] = 0,
+					["damage_taken"] = 133.032436,
+				}, -- [2]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["nome"] = "Kisskouille",
+					["spec"] = 1452,
+					["grupo"] = true,
+					["pets"] = {
+					},
+					["classe"] = "PRIEST",
+					["last_event"] = 0,
+					["spell_cast"] = {
+						[585] = 12,
+					},
+					["tipo"] = 4,
+					["serial"] = "Player-1335-09DD3544",
+					["aID"] = "1335-09DD3544",
+				}, -- [1]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["raid_roster_indexed"] = {
+		},
+		["tempo_start"] = 1663439562,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 3,
+		["spells_cast_timeline"] = {
+		},
+		["totals"] = {
+			188.0832550000001, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "20:32:42",
+		["end_time"] = 523966.464,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 5.901000000012573,
+				["type"] = 0,
+				["name"] = "Envahisseur mâcheroc",
+				["clock"] = "20:34:06",
+			}, -- [1]
+			{
+				["elapsed"] = 5.619999999995343,
+				["type"] = 0,
+				["name"] = "Envahisseur mâcheroc",
+				["clock"] = "20:33:51",
+			}, -- [2]
+			{
+				["elapsed"] = 7.470000000030268,
+				["type"] = 0,
+				["name"] = "Envahisseur mâcheroc",
+				["clock"] = "20:33:31",
+			}, -- [3]
+			{
+				["elapsed"] = 8.101000000024214,
+				["type"] = 0,
+				["name"] = "Envahisseur mâcheroc",
+				["clock"] = "20:33:06",
+			}, -- [4]
+			{
+				["elapsed"] = 6.712999999988824,
+				["type"] = 0,
+				["name"] = "Envahisseur mâcheroc",
+				["clock"] = "20:32:42",
+			}, -- [5]
+		},
+		["totals_grupo"] = {
+			125.026265, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["frags"] = {
+		},
+		["data_fim"] = "20:34:11",
+		["overall_enemy_name"] = "Envahisseur mâcheroc",
+		["CombatSkillCache"] = {
+		},
+		["cleu_timeline"] = {
+		},
+		["start_time"] = 523932.659,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+	},
+	["character_data"] = {
+		["logons"] = 1,
+	},
+	["force_font_outline"] = "",
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_specs"] = {
+		["Player-1335-09DD3544"] = 1452,
+	},
+}

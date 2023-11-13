@@ -1,0 +1,49 @@
+
+ARFSDB = {
+	["profileKeys"] = {
+		["Croclardon - Ysondre"] = "Default",
+		["Jesuisgentil - Ysondre"] = "Default",
+		["Laitmeumeu - Ysondre"] = "Default",
+		["Kikouyou - Ysondre"] = "Default",
+		["Témaléflam - Ysondre"] = "Default",
+		["Tyrance - Ysondre"] = "Default",
+		["Coloss - Ysondre"] = "Default",
+		["Lézarbizar - Ysondre"] = "Default",
+		["Colèrecolère - Ysondre"] = "Default",
+		["Roulbouboule - Ysondre"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Fonts"] = {
+				["NameFont"] = "Accidental Presidency",
+				["StatusFont"] = "Accidental Presidency",
+				["NamePosition"] = 1,
+				["StatusSize"] = 14,
+				["NameSize"] = 16,
+			},
+			["RangeAlpha"] = {
+				["BG"] = 0.1,
+			},
+			["CustomBuff"] = {
+				["height"] = 30,
+				["custom"] = false,
+				["width"] = 22,
+			},
+			["Textures"] = {
+				["BGColor"] = {
+					["r"] = 0.658823549747467,
+					["b"] = 0.01960784383118153,
+				},
+				["BGTexture"] = "You Are Beautiful!",
+				["FGCustomColor"] = true,
+				["FGColor"] = {
+					["b"] = 0.1960784494876862,
+					["g"] = 0.1960784494876862,
+					["r"] = 0.1960784494876862,
+				},
+				["FGTexture"] = "You Are Beautiful!",
+				["Border"] = false,
+			},
+		},
+	},
+}

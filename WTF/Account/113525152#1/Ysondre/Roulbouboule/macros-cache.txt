@@ -1,0 +1,26 @@
+VER 3 0100000000000004 "Paralysis" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help, nodead][@target] Paralysie
+END
+VER 3 0100000000000009 "Statue" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Invocation d’une statue du Buffle noir
+END
+VER 3 010000000000000A "Taunt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, harm, nodead][] Persiflage
+END
+VER 3 0100000000000007 "Taunt Statue" "2061352"
+/target Statue du buffle noir
+/cast Persiflage
+/targetlasttarget
+END
+VER 3 010000000000000B "Tiger Lust" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead][] Soif du tigre
+END
+VER 3 0100000000000006 "Trinket 14" "INV_MISC_QUESTIONMARK"
+#showtooltip Tempête, Terre et Feu
+/use 14
+/cast Tempête, Terre et Feu
+END

@@ -1,0 +1,47 @@
+
+HandyNotes_ShadowlandsDB = {
+	["char"] = {
+		["Croclardon - Ysondre"] = {
+			["1970_coord_53384707"] = true,
+			["1970_coord_42934005"] = true,
+			["1970_coord_53089305"] = true,
+			["1970_coord_47474516"] = true,
+			["1970_coord_64743369"] = true,
+			["1970_coord_59862111"] = true,
+			["1970_coord_53634435"] = true,
+			["1970_coord_69073662"] = true,
+		},
+	},
+	["profileKeys"] = {
+		["Croclardon - Ysondre"] = "Default",
+		["Jesuisgentil - Ysondre"] = "Default",
+		["Laitmeumeu - Ysondre"] = "Default",
+		["Témaléflam - Ysondre"] = "Default",
+		["Kikouyou - Ysondre"] = "Default",
+		["Coloss - Ysondre"] = "Default",
+		["Tyrance - Ysondre"] = "Default",
+		["Kisskouille - Ysondre"] = "Default",
+		["Lézarbizar - Ysondre"] = "Default",
+		["Colèrecolère - Ysondre"] = "Default",
+		["Roulbouboule - Ysondre"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["icon_display_echoed_jiros"] = false,
+			["icon_display_pet_battles"] = false,
+			["icon_display_puzzle_caches"] = false,
+			["icon_display_concordances"] = false,
+			["icon_display_misc"] = false,
+			["icon_display_code_creature"] = false,
+			["icon_display_exile_tales"] = false,
+			["icon_display_coreless_automa"] = false,
+			["icon_display_zereth_caches"] = false,
+			["icon_display_proto_materials"] = false,
+			["icon_display_slime_cat"] = false,
+			["icon_display_rares"] = false,
+			["icon_display_treasures"] = false,
+			["icon_display_mawsworn_supply_cache"] = false,
+			["icon_display_protoform_schematics"] = false,
+		},
+	},
+}

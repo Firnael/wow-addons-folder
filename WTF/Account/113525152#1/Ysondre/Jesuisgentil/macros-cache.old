@@ -1,0 +1,29 @@
+VER 3 0100000000000006 "Avenger hover" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead][] Bouclier du vengeur
+END
+VER 3 0100000000000004 "Bulle" "134400"
+#showtooltip
+/stopcasting
+/cancelaura Bouclier divin
+/cast Bouclier divin
+END
+VER 3 0100000000000007 "Cancel BoP" "134400"
+#showtooltip
+/stopcasting
+/cancelaura Bénédiction de protection
+/cast Bénédiction de protection
+END
+VER 3 0100000000000005 "Focus kick" "134400"
+#showtooltip
+/cast [@focus,harm,nodead][] Réprimandes
+END
+VER 3 0100000000000003 "Taunt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, harm, nodead][] Main de rétribution
+END
+VER 3 0100000000000008 "Wings + Trinket" "134400"
+#showtooltip
+/cast Sentinelle
+/use 13
+END
