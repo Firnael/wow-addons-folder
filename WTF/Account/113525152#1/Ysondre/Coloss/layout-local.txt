@@ -1,0 +1,8 @@
+Version: 1
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: LEFT
+X: 464
+Y: -197
+W: 358
+H: 142

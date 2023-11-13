@@ -1,0 +1,124 @@
+VER 3 0000000000000010 "Details!" "463829"
+/details toggle
+END
+VER 3 0000000000000044 "Dominos" "133220"
+/dominos
+END
+VER 3 0000000000000039 "DoS @cursor" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Porte des ombres
+END
+VER 3 0000000000000051 "Drink + Prowl" "134400"
+#showtooltip Bave de Dragon délicieuse
+/cast [nostance:2] Forme de félin
+/use Bave de Dragon délicieuse
+/cast !Rôder
+END
+VER 3 000000000000004C "Ecorce + Bonbon" "134400"
+#showtooltip Ecorce
+/use Pierre de soins
+/cast Ecorce
+END
+VER 3 0000000000000048 "Extra Button" "897131"
+/click ExtraActionButton1
+END
+VER 3 0000000000000033 "Fast Skinning" "INV_MISC_QUESTIONMARK"
+#showtooltip Couteau à dépecer
+/cast [@mouseover,dead] Dépeçage(Apprenti)
+END
+VER 3 000000000000004E "Focus" "132212"
+/focus
+END
+VER 3 0000000000000003 "Focus" "Ability_CheapShot"
+/focus [noexists]
+/stopmacro [noexists]
+/cleartarget
+/targetlasttarget
+/tar [@focus,exists]
+/targetlasttarget [@focus,exists]
+/focus
+/targetlasttarget [noexists]
+END
+VER 3 000000000000001A "Glider" "132698"
+/use 15
+END
+VER 3 0000000000000040 "Great Vault" "413587"
+/run LoadAddOn("Blizzard_WeeklyRewards"); WeeklyRewardsFrame:Show()
+END
+VER 3 000000000000003B "HandyNotes NEW" "134330"
+/hnnew
+END
+VER 3 0000000000000043 "Macros" "237132"
+/m
+END
+VER 3 000000000000004D "MDT" "132177"
+/mdt
+END
+VER 3 000000000000001B "Nitroboost" "537468"
+/use 6
+END
+VER 3 0000000000000035 "PdF :)" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/run PlaySoundFile(634290)
+/use Pierre de foyer de fêtard de la fête des Brasseurs
+END
+VER 3 0000000000000050 "Plater" "961491"
+/plater
+END
+VER 3 0000000000000026 "Robustesse" "135987"
+#showtooltip
+/cast Mot de pouvoir : Robustesse
+END
+VER 3 0000000000000052 "Self Buff" "134400"
+#showtooltip
+/cast [@player] Marque du fauve
+END
+VER 3 000000000000004F "Skull" "3566856"
+/script SetRaidTarget("target", 8);
+END
+VER 3 000000000000002B "Smite" "135924"
+#showtooltip Châtiment
+/cast [nochanneling:Pénitence] Châtiment
+END
+VER 3 000000000000003D "Stance ?" "1029587"
+/run local x = GetShapeshiftForm() print("you are in stance: ",x)
+END
+VER 3 0000000000000049 "Stun / Roar" "134400"
+#showtooltip
+/cast [known:Rugissement] Rugissement incapacitant; [known:Rossée puissante] Rossée puissante
+END
+VER 3 0000000000000042 "SW:D" "INV_MISC_QUESTIONMARK"
+#showtooltip Mot de l'ombre : Mort
+/stopcasting
+/cancelaura Dispersion
+/cast [harm] Mot de l'ombre : Mort
+END
+VER 3 000000000000004B "Symbols" "3536175"
+/run local b=ActionButton8 _MH=_MH or(b:SetAttribute("*type5","macro")or SecureHandlerWrapScript(b,"PreClick",b,'Z=IsShiftKeyDown()and 0 or(Z or 0)%8+1 self:SetAttribute("macrotext5","/wm [@cursor]"..Z)'))or 1
+/click ActionButton8 Button5
+END
+VER 3 0000000000000032 "TEST SOUND" "132340"
+--/run PlaySound(67155)
+--/run PlaySoundFile(558127)
+--/run PlaySoundFile(634290) -- Chen
+--/run PlaySoundFile(1407437) -- Kayn
+/run PlaySoundFile(552195)
+END
+VER 3 0000000000000024 "Tinypad" "237162"
+/tinypad
+END
+VER 3 000000000000004A "Trinket (14)" "134400"
+#showtooltip
+/use 14
+END
+VER 3 000000000000003F "Trinket (cursor)" "1028994"
+#showtooltip
+/use [@cursor] 14
+END
+VER 3 0000000000000041 "Trinket (target)" "4638713"
+#showtooltip
+/use [@mouseover,help,nodead][] 13
+END
+VER 3 0000000000000045 "Wa" "136125"
+/wa
+END

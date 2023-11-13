@@ -1,0 +1,78 @@
+VER 3 0100000000000028 "Apo/Salvation" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/2] Apothéose
+/cast [talent:7/3] Mot sacré : Salut
+END
+VER 3 010000000000001A "Dispel Magic" "136066"
+#showtooltip Dissipation de la magie
+/stopcasting
+/cast [@mouseover,harm,nodead][harm,nodead] Dissipation de la magie
+END
+VER 3 0100000000000023 "Dispersion" "INV_MISC_QUESTIONMARK"
+#showtooltip Dispersion
+/stopcasting
+/cast Dispersion
+/cancelaura Dispersion
+END
+VER 3 0100000000000027 "DStar/Halo" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/2] Etoile divine
+/cast [talent:6/3] Halo
+END
+VER 3 0100000000000016 "Feather (cursor)" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]Plume angélique
+/stopspelltarget
+END
+VER 3 0100000000000029 "Feather (perso)" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Plume angélique
+/stopspelltarget
+END
+VER 3 010000000000001C "Force rayonnante" "571554"
+#showtooltip
+/cast [@mouseover,help,nodead][@player]Force rayonnante
+END
+VER 3 0100000000000019 "Grip" "463835"
+#showtooltip
+/cast [@mouseover,help,nodead] Saut de foi; Plumerang
+END
+VER 3 0100000000000026 "Horror" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast [@mouseover,harm,nodead][] Horreur psychique
+END
+VER 3 0100000000000018 "Levitate" "INV_MISC_QUESTIONMARK"
+#showtooltip Lévitation
+/cancelaura [mod:alt] Lévitation
+/cast [@mouseover,help,nodead,mod:ctrl][@player,nomod] Lévitation
+END
+VER 3 0100000000000025 "Peste dévorante" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,nodead,harm][] Peste dévorante
+END
+VER 3 010000000000001D "PW: S" "135940"
+#showtooltip
+/cast [@player] Mot de pouvoir : Bouclier
+END
+VER 3 010000000000001E "Rez" "135955"
+#showtooltip
+/cast [mod:shift]Résurrection de masse; Résurrection
+END
+VER 3 0100000000000012 "Silence" "458230"
+#showtooltip
+/stopcasting
+/cast [@mouseover,harm,nodead][] Silence
+END
+VER 3 010000000000002A "test" "134400"
+/run local ClassTalents = _G.C_ClassTalents
+/run print(ClassTalents.GetActiveConfigID())
+END
+VER 3 0100000000000015 "VB" "1386548"
+#showtooltip
+/cast [@mouseover,harm,nodead][] Éruption du Vide
+END
+VER 3 010000000000000B "VT" "135978"
+#showtooltip
+/cast [@mouseover,nodead,harm][] Toucher vampirique
+END

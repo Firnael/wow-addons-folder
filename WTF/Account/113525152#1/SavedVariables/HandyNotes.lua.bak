@@ -1,0 +1,97 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Croclardon - Ysondre"] = "Croclardon - Ysondre",
+		["Jesuisgentil - Ysondre"] = "Jesuisgentil - Ysondre",
+		["Laitmeumeu - Ysondre"] = "Laitmeumeu - Ysondre",
+		["Témaléflam - Ysondre"] = "Témaléflam - Ysondre",
+		["Kikouyou - Ysondre"] = "Kikouyou - Ysondre",
+		["Colèrecolère - Ysondre"] = "Colèrecolère - Ysondre",
+		["Tyrance - Ysondre"] = "Tyrance - Ysondre",
+		["Lézarbizar - Ysondre"] = "Lézarbizar - Ysondre",
+		["Kisskouille - Ysondre"] = "Kisskouille - Ysondre",
+		["Coloss - Ysondre"] = "Coloss - Ysondre",
+		["Roulbouboule - Ysondre"] = "Roulbouboule - Ysondre",
+	},
+	["profiles"] = {
+		["Croclardon - Ysondre"] = {
+		},
+		["Jesuisgentil - Ysondre"] = {
+		},
+		["Laitmeumeu - Ysondre"] = {
+		},
+		["Témaléflam - Ysondre"] = {
+		},
+		["Kikouyou - Ysondre"] = {
+		},
+		["Colèrecolère - Ysondre"] = {
+		},
+		["Tyrance - Ysondre"] = {
+		},
+		["Lézarbizar - Ysondre"] = {
+		},
+		["Kisskouille - Ysondre"] = {
+		},
+		["Coloss - Ysondre"] = {
+		},
+		["Roulbouboule - Ysondre"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["global"] = {
+		[2112] = {
+			[43165965] = {
+				["title"] = "HV",
+				["cont"] = false,
+				["icon"] = 9,
+				["desc"] = "",
+			},
+		},
+		[2023] = {
+			[55847830] = {
+				["cont"] = false,
+				["icon"] = 1,
+				["title"] = "L'épreuve du déluge",
+				["desc"] = "",
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Croclardon - Ysondre"] = "Croclardon - Ysondre",
+		["Jesuisgentil - Ysondre"] = "Jesuisgentil - Ysondre",
+		["Laitmeumeu - Ysondre"] = "Laitmeumeu - Ysondre",
+		["Témaléflam - Ysondre"] = "Témaléflam - Ysondre",
+		["Kikouyou - Ysondre"] = "Kikouyou - Ysondre",
+		["Colèrecolère - Ysondre"] = "Colèrecolère - Ysondre",
+		["Tyrance - Ysondre"] = "Tyrance - Ysondre",
+		["Lézarbizar - Ysondre"] = "Lézarbizar - Ysondre",
+		["Kisskouille - Ysondre"] = "Kisskouille - Ysondre",
+		["Coloss - Ysondre"] = "Coloss - Ysondre",
+		["Roulbouboule - Ysondre"] = "Roulbouboule - Ysondre",
+	},
+	["profiles"] = {
+		["Croclardon - Ysondre"] = {
+		},
+		["Jesuisgentil - Ysondre"] = {
+		},
+		["Laitmeumeu - Ysondre"] = {
+		},
+		["Témaléflam - Ysondre"] = {
+		},
+		["Kikouyou - Ysondre"] = {
+		},
+		["Colèrecolère - Ysondre"] = {
+		},
+		["Tyrance - Ysondre"] = {
+		},
+		["Lézarbizar - Ysondre"] = {
+		},
+		["Kisskouille - Ysondre"] = {
+		},
+		["Coloss - Ysondre"] = {
+		},
+		["Roulbouboule - Ysondre"] = {
+		},
+	},
+}

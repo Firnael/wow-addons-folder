@@ -1,0 +1,78 @@
+VER 3 0100000000000026 "Bonbon + Renewal" "134400"
+#showtooltip Renouveau
+/use 5512
+/use Renouveau
+END
+VER 3 010000000000001A "Cancelform" "1029587"
+/cancelform
+END
+VER 3 010000000000000B "Charge / Renouv" "INV_MISC_QUESTIONMARK"
+END
+VER 3 010000000000001F "Chat" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Forme de félin
+/cancelform
+END
+VER 3 0100000000000016 "Cyclone" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead][] Cyclone
+END
+VER 3 0100000000000020 "Célérité" "134400"
+#showtooltip Célérité
+/use [nostealth] Babiole prismatique
+/cast Célérité
+END
+VER 3 010000000000001C "Drink Prowl" "INV_MISC_QUESTIONMARK"
+#showtooltip Lait de tauralus tiède
+/cast [nostance:2] Forme de félin(Changeforme)
+/use Lait de tauralus tiède
+/cast !Rôder
+END
+VER 3 010000000000000D "Efflo @mouseover" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][@cursor] Efflorescence
+END
+VER 3 0100000000000021 "Epanouissement" "134400"
+#showtooltip Epanouissement
+/use Oeil ténébreux de soigne-vide
+/cast Veille de la nature
+/cast Epanouissement
+END
+VER 3 0100000000000024 "Erup / Trash" "134400"
+#showtooltip
+/cast [stance:0/4] Éruption stellaire; [stance:1/2] Balayage
+END
+VER 3 0100000000000008 "Innerv @mouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][@player] Innervation
+END
+VER 3 010000000000001E "Ours" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [noform:1] Forme d'ours
+END
+VER 3 010000000000001D "Rôder" "INV_MISC_QUESTIONMARK"
+#showtooltip Rôder
+/cast [nostealth] Rôder
+END
+VER 3 0100000000000017 "Sarment (@mouse)" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead][] Sarments
+END
+VER 3 010000000000000C "Taunt" "132270"
+#showtooltip
+/cast [@mouseover,harm,nodead,stance:1][@target] Grondement
+END
+VER 3 0100000000000025 "Tranq + NV" "134400"
+#showtooltip Tranquillité
+/cast Veille de la nature
+/cast Tranquillité
+END
+VER 3 010000000000000F "Vortex @cursor" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Vortex d’Ursol
+END
+VER 3 0100000000000005 "Voyage" "INV_Misc_QuestionMark"
+#showtooltip Forme de voyage
+/cast [stance:5] Forme de voyage
+/cast [swimming] Forme aquatique; [indoors] Forme de félin; Forme de voyage
+END

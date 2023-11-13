@@ -1,0 +1,12 @@
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+Blizzard_CombatText: enabled
+LittleWigs: enabled
+LittleWigs_Legion: enabled
+QE-DungeonTips: disabled
+BigWigs_DragonIsles: enabled
