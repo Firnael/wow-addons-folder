@@ -1,16 +1,29 @@
 
 PremadeGroupsFilterState = {
-	["version"] = 5,
+	["c1f4"] = {
+		["enabled"] = false,
+		["mini"] = {
+			["sorting"] = "",
+			["expression"] = "",
+		},
+		["minimized"] = false,
+	},
 	["c6f4"] = {
 		["enabled"] = false,
-		["minimized"] = false,
-		["expression"] = {
-			["expression"] = "",
+		["mini"] = {
 			["sorting"] = "",
+			["expression"] = "",
 		},
+		["minimized"] = false,
 	},
+	["version"] = 6,
 	["c2f4"] = {
+		["minimized"] = false,
 		["enabled"] = true,
+		["mini"] = {
+			["sorting"] = "",
+			["expression"] = "",
+		},
 		["dungeon"] = {
 			["mprating"] = {
 				["max"] = "",
@@ -35,32 +48,19 @@ PremadeGroupsFilterState = {
 			},
 			["expression"] = "",
 			["difficulty"] = {
-				["val"] = 4,
 				["act"] = true,
+				["val"] = 4,
 			},
 			["dungeon1"] = false,
 			["dungeon2"] = false,
+			["dungeon4"] = false,
+			["dungeon5"] = false,
+			["dungeon3"] = false,
 			["tanks"] = {
 				["max"] = "1",
 				["min"] = "1",
 				["act"] = true,
 			},
-			["dungeon3"] = false,
-			["dungeon5"] = false,
-			["dungeon4"] = false,
-			["sorting"] = "",
-		},
-		["minimized"] = false,
-		["expression"] = {
-			["expression"] = "",
-			["sorting"] = "",
-		},
-	},
-	["c1f4"] = {
-		["enabled"] = false,
-		["minimized"] = false,
-		["expression"] = {
-			["expression"] = "",
 			["sorting"] = "",
 		},
 	},

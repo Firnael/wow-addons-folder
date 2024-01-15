@@ -1,16 +1,18 @@
 
 TomTomDB = {
 	["profileKeys"] = {
+		["Havok - La Croisade écarlate"] = "Default",
 		["Croclardon - Ysondre"] = "Default",
 		["Jesuisgentil - Ysondre"] = "Default",
 		["Laitmeumeu - Ysondre"] = "Default",
-		["Témaléflam - Ysondre"] = "Default",
-		["Kikouyou - Ysondre"] = "Default",
-		["Coloss - Ysondre"] = "Default",
-		["Tyrance - Ysondre"] = "Default",
-		["Kisskouille - Ysondre"] = "Default",
-		["Lézarbizar - Ysondre"] = "Default",
+		["Firnaël - La Croisade écarlate"] = "Default",
 		["Colèrecolère - Ysondre"] = "Default",
+		["Kikouyou - Ysondre"] = "Default",
+		["Témaléflam - Ysondre"] = "Default",
+		["Tyrance - Ysondre"] = "Default",
+		["Lézarbizar - Ysondre"] = "Default",
+		["Kisskouille - Ysondre"] = "Default",
+		["Coloss - Ysondre"] = "Default",
 		["Roulbouboule - Ysondre"] = "Default",
 	},
 	["profiles"] = {
@@ -20,8 +22,8 @@ TomTomDB = {
 					"TOP", -- [1]
 					nil, -- [2]
 					"TOP", -- [3]
-					3.332807540893555, -- [4]
-					-94.83363342285156, -- [5]
+					8.332805633544922, -- [4]
+					-54.00027847290039, -- [5]
 				},
 			},
 			["block"] = {
@@ -29,8 +31,8 @@ TomTomDB = {
 					"TOPLEFT", -- [1]
 					nil, -- [2]
 					"TOPLEFT", -- [3]
-					89.16683197021484, -- [4]
-					-255.0002899169922, -- [5]
+					80.83350372314453, -- [4]
+					-265.8336486816406, -- [5]
 				},
 			},
 		},
@@ -39,38 +41,44 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
+		["Havok - La Croisade écarlate"] = "Havok - La Croisade écarlate",
 		["Croclardon - Ysondre"] = "Croclardon - Ysondre",
 		["Jesuisgentil - Ysondre"] = "Jesuisgentil - Ysondre",
 		["Laitmeumeu - Ysondre"] = "Laitmeumeu - Ysondre",
-		["Témaléflam - Ysondre"] = "Témaléflam - Ysondre",
-		["Kikouyou - Ysondre"] = "Kikouyou - Ysondre",
-		["Coloss - Ysondre"] = "Coloss - Ysondre",
-		["Tyrance - Ysondre"] = "Tyrance - Ysondre",
-		["Kisskouille - Ysondre"] = "Kisskouille - Ysondre",
-		["Lézarbizar - Ysondre"] = "Lézarbizar - Ysondre",
+		["Firnaël - La Croisade écarlate"] = "Firnaël - La Croisade écarlate",
 		["Colèrecolère - Ysondre"] = "Colèrecolère - Ysondre",
+		["Kikouyou - Ysondre"] = "Kikouyou - Ysondre",
+		["Témaléflam - Ysondre"] = "Témaléflam - Ysondre",
+		["Tyrance - Ysondre"] = "Tyrance - Ysondre",
+		["Lézarbizar - Ysondre"] = "Lézarbizar - Ysondre",
+		["Kisskouille - Ysondre"] = "Kisskouille - Ysondre",
+		["Coloss - Ysondre"] = "Coloss - Ysondre",
 		["Roulbouboule - Ysondre"] = "Roulbouboule - Ysondre",
 	},
 	["profiles"] = {
+		["Havok - La Croisade écarlate"] = {
+		},
 		["Croclardon - Ysondre"] = {
 		},
 		["Jesuisgentil - Ysondre"] = {
 		},
 		["Laitmeumeu - Ysondre"] = {
 		},
-		["Témaléflam - Ysondre"] = {
+		["Firnaël - La Croisade écarlate"] = {
+		},
+		["Colèrecolère - Ysondre"] = {
 		},
 		["Kikouyou - Ysondre"] = {
 		},
-		["Coloss - Ysondre"] = {
+		["Témaléflam - Ysondre"] = {
 		},
 		["Tyrance - Ysondre"] = {
 		},
-		["Kisskouille - Ysondre"] = {
-		},
 		["Lézarbizar - Ysondre"] = {
 		},
-		["Colèrecolère - Ysondre"] = {
+		["Kisskouille - Ysondre"] = {
+		},
+		["Coloss - Ysondre"] = {
 		},
 		["Roulbouboule - Ysondre"] = {
 		},

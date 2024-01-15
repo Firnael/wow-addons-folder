@@ -1,5 +1,15 @@
 
 EncounterDetailsDB = {
+	["chartData"] = {
+		[8724] = {
+		},
+		[8726] = {
+		},
+		[8725] = {
+		},
+		[8727] = {
+		},
+	},
 	["encounter_spells"] = {
 		[193473] = {
 			["school"] = 32,

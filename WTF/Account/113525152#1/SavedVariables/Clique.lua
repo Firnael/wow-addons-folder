@@ -4,40 +4,40 @@ CliqueDB3 = {
 	["char"] = {
 		["Croclardon - Ysondre"] = {
 			["spec1_profileKey"] = "Croclardon - Ysondre",
-			["alerthidden"] = true,
+			["spec2_profileKey"] = "Croclardon - Ysondre",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec2_profileKey"] = "Croclardon - Ysondre",
+			["alerthidden"] = true,
 			["spec3_profileKey"] = "Croclardon - Ysondre",
 		},
 		["Jesuisgentil - Ysondre"] = {
 			["spec1_profileKey"] = "Jesuisgentil - Ysondre",
-			["specswap"] = false,
+			["spec2_profileKey"] = "Jesuisgentil - Ysondre",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Jesuisgentil - Ysondre",
-			["spec3_profileKey"] = "Jesuisgentil - Ysondre",
+			["specswap"] = false,
 			["alerthidden"] = true,
+			["spec3_profileKey"] = "Jesuisgentil - Ysondre",
 		},
 		["Laitmeumeu - Ysondre"] = {
 			["spec1_profileKey"] = "Laitmeumeu - Ysondre",
-			["spec2_profileKey"] = "Laitmeumeu - Ysondre",
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec4_profileKey"] = "Laitmeumeu - Ysondre",
-			["spec3_profileKey"] = "Laitmeumeu - Ysondre",
 			["alerthidden"] = true,
+			["downclick"] = false,
+			["spec3_profileKey"] = "Laitmeumeu - Ysondre",
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Laitmeumeu - Ysondre",
 			["specswap"] = false,
+			["spec4_profileKey"] = "Laitmeumeu - Ysondre",
 		},
 		["Kikouyou - Ysondre"] = {
 			["spec1_profileKey"] = "Kikouyou - Ysondre",
 			["spec3_profileKey"] = "Kikouyou - Ysondre",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
-			["alerthidden"] = true,
 			["spec2_profileKey"] = "Kikouyou - Ysondre",
+			["alerthidden"] = true,
+			["specswap"] = false,
 		},
 		["Tyrance - Ysondre"] = {
 			["spec1_profileKey"] = "Tyrance - Ysondre",
@@ -55,10 +55,11 @@ CliqueDB3 = {
 		},
 		["Témaléflam - Ysondre"] = {
 			["spec1_profileKey"] = "Témaléflam - Ysondre",
-			["spec2_profileKey"] = "Témaléflam - Ysondre",
+			["spec3_profileKey"] = "Témaléflam - Ysondre",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
+			["spec2_profileKey"] = "Témaléflam - Ysondre",
 			["alerthidden"] = true,
 		},
 		["Colèrecolère - Ysondre"] = {
@@ -66,41 +67,43 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Colèrecolère - Ysondre",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Colèrecolère - Ysondre",
 			["specswap"] = false,
+			["spec3_profileKey"] = "Colèrecolère - Ysondre",
 		},
 		["Roulbouboule - Ysondre"] = {
 			["spec1_profileKey"] = "Roulbouboule - Ysondre",
 			["fastooc"] = false,
-			["alerthidden"] = true,
-			["downclick"] = false,
-			["specswap"] = false,
-			["spec3_profileKey"] = "Roulbouboule - Ysondre",
 			["spec2_profileKey"] = "Roulbouboule - Ysondre",
+			["downclick"] = false,
+			["spec3_profileKey"] = "Roulbouboule - Ysondre",
+			["specswap"] = false,
+			["alerthidden"] = true,
 		},
 	},
 	["profileKeys"] = {
+		["Havok - La Croisade écarlate"] = "Havok - La Croisade écarlate",
 		["Croclardon - Ysondre"] = "Croclardon - Ysondre",
 		["Jesuisgentil - Ysondre"] = "Jesuisgentil - Ysondre",
 		["Laitmeumeu - Ysondre"] = "Laitmeumeu - Ysondre",
-		["Témaléflam - Ysondre"] = "Témaléflam - Ysondre",
+		["Roulbouboule - Ysondre"] = "Roulbouboule - Ysondre",
+		["Coloss - Ysondre"] = "Coloss - Ysondre",
 		["Kikouyou - Ysondre"] = "Kikouyou - Ysondre",
-		["Colèrecolère - Ysondre"] = "Colèrecolère - Ysondre",
+		["Kisskouille - Ysondre"] = "Kisskouille - Ysondre",
 		["Tyrance - Ysondre"] = "Tyrance - Ysondre",
 		["Lézarbizar - Ysondre"] = "Lézarbizar - Ysondre",
-		["Kisskouille - Ysondre"] = "Kisskouille - Ysondre",
-		["Coloss - Ysondre"] = "Coloss - Ysondre",
-		["Roulbouboule - Ysondre"] = "Roulbouboule - Ysondre",
+		["Témaléflam - Ysondre"] = "Témaléflam - Ysondre",
+		["Colèrecolère - Ysondre"] = "Colèrecolère - Ysondre",
+		["Firnaël - La Croisade écarlate"] = "Firnaël - La Croisade écarlate",
 	},
 	["profiles"] = {
-		["Croclardon - Ysondre"] = {
+		["Havok - La Croisade écarlate"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
 						["default"] = true,
 					},
 					["type"] = "target",
-					["key"] = "CTRL-BUTTON1",
+					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
@@ -110,33 +113,18 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 				}, -- [2]
+			},
+		},
+		["Croclardon - Ysondre"] = {
+			["bindings"] = {
 				{
-					["type"] = "spell",
-					["key"] = "F",
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135907,
-					["spell"] = "Soins rapides",
-				}, -- [3]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135940,
-					["spell"] = "Mot de pouvoir : Bouclier",
-				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-4",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135939,
-					["spell"] = "Infusion de puissance",
-				}, -- [5]
+					["key"] = "CTRL-BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
@@ -145,7 +133,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135894,
 					["spell"] = "Purifier",
-				}, -- [6]
+				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "4",
@@ -154,7 +142,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135953,
 					["spell"] = "Rénovation",
-				}, -- [7]
+				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON5",
@@ -163,27 +151,41 @@ CliqueDB3 = {
 					},
 					["icon"] = 135887,
 					["spell"] = "Cercle de soins",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135940,
+					["spell"] = "Mot de pouvoir : Bouclier",
+				}, -- [5]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-4",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135939,
+					["spell"] = "Infusion de puissance",
+				}, -- [6]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [7]
+				{
+					["type"] = "spell",
+					["key"] = "F",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135907,
+					["spell"] = "Soins rapides",
 				}, -- [8]
-				{
-					["type"] = "spell",
-					["key"] = "T",
-					["sets"] = {
-						["default"] = true,
-						["spec1"] = true,
-					},
-					["icon"] = 237548,
-					["spell"] = "Extase",
-				}, -- [9]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-3",
-					["sets"] = {
-						["default"] = true,
-						["spec1"] = true,
-					},
-					["icon"] = 135936,
-					["spell"] = "Suppression de la douleur",
-				}, -- [10]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON5",
@@ -193,7 +195,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135937,
 					["spell"] = "Mot sacré : Sérénité",
-				}, -- [11]
+				}, -- [9]
 				{
 					["type"] = "spell",
 					["key"] = "A",
@@ -203,47 +205,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135944,
 					["spell"] = "Prière de guérison",
-				}, -- [12]
-				{
-					["type"] = "spell",
-					["key"] = "E",
-					["sets"] = {
-						["default"] = true,
-						["spec2"] = true,
-					},
-					["icon"] = 135943,
-					["spell"] = "Prière de soins",
-				}, -- [13]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON5",
-					["sets"] = {
-						["default"] = true,
-						["spec1"] = true,
-					},
-					["icon"] = 237545,
-					["spell"] = "Pénitence",
-				}, -- [14]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-3",
-					["sets"] = {
-						["default"] = true,
-						["spec2"] = true,
-					},
-					["icon"] = 237542,
-					["spell"] = "Esprit gardien",
-				}, -- [15]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-						["spec3"] = true,
-					},
-					["icon"] = 135935,
-					["spell"] = "Purifier la maladie",
-				}, -- [16]
+				}, -- [10]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-F",
@@ -253,6 +215,66 @@ CliqueDB3 = {
 					},
 					["icon"] = 135913,
 					["spell"] = "Soins",
+				}, -- [11]
+				{
+					["type"] = "spell",
+					["key"] = "T",
+					["sets"] = {
+						["default"] = true,
+						["spec1"] = true,
+					},
+					["icon"] = 237548,
+					["spell"] = "Extase",
+				}, -- [12]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON5",
+					["sets"] = {
+						["default"] = true,
+						["spec1"] = true,
+					},
+					["icon"] = 237545,
+					["spell"] = "Pénitence",
+				}, -- [13]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+						["spec3"] = true,
+					},
+					["icon"] = 135935,
+					["spell"] = "Purifier la maladie",
+				}, -- [14]
+				{
+					["type"] = "spell",
+					["key"] = "E",
+					["sets"] = {
+						["default"] = true,
+						["spec2"] = true,
+					},
+					["icon"] = 135943,
+					["spell"] = "Prière de soins",
+				}, -- [15]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-3",
+					["sets"] = {
+						["default"] = true,
+						["spec1"] = true,
+					},
+					["icon"] = 135936,
+					["spell"] = "Suppression de la douleur",
+				}, -- [16]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-3",
+					["sets"] = {
+						["default"] = true,
+						["spec2"] = true,
+					},
+					["icon"] = 237542,
+					["spell"] = "Esprit gardien",
 				}, -- [17]
 				{
 					["type"] = "spell",
@@ -269,10 +291,10 @@ CliqueDB3 = {
 		["Jesuisgentil - Ysondre"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "CTRL-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -295,20 +317,22 @@ CliqueDB3 = {
 					["spell"] = "Guide de lumière",
 				}, -- [3]
 				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
 						["default"] = true,
 					},
+					["icon"] = 135949,
+					["spell"] = "Epuration",
 				}, -- [4]
 				{
 					["type"] = "spell",
-					["key"] = "F",
+					["key"] = "SHIFT-1",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 133192,
-					["spell"] = "Mot de gloire",
+					["icon"] = 135928,
+					["spell"] = "Imposition des mains",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -320,22 +344,20 @@ CliqueDB3 = {
 					["spell"] = "Horion sacré",
 				}, -- [6]
 				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
+					["type"] = "menu",
+					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135949,
-					["spell"] = "Epuration",
 				}, -- [7]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-1",
+					["key"] = "F",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135928,
-					["spell"] = "Imposition des mains",
+					["icon"] = 133192,
+					["spell"] = "Mot de gloire",
 				}, -- [8]
 				{
 					["type"] = "spell",
@@ -348,12 +370,12 @@ CliqueDB3 = {
 				}, -- [9]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON5",
+					["key"] = "4",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135981,
-					["spell"] = "Lumière sacrée",
+					["icon"] = 135907,
+					["spell"] = "Éclair lumineux",
 				}, -- [10]
 				{
 					["type"] = "spell",
@@ -375,21 +397,21 @@ CliqueDB3 = {
 				}, -- [12]
 				{
 					["type"] = "spell",
-					["key"] = "1",
+					["key"] = "3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135964,
-					["spell"] = "Bénédiction de protection",
+					["icon"] = 135968,
+					["spell"] = "Bénédiction de liberté",
 				}, -- [13]
 				{
 					["type"] = "spell",
-					["key"] = "4",
+					["key"] = "CTRL-BUTTON5",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135907,
-					["spell"] = "Éclair lumineux",
+					["icon"] = 135981,
+					["spell"] = "Lumière sacrée",
 				}, -- [14]
 				{
 					["type"] = "spell",
@@ -402,32 +424,32 @@ CliqueDB3 = {
 				}, -- [15]
 				{
 					["type"] = "spell",
-					["key"] = "3",
+					["key"] = "1",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135968,
-					["spell"] = "Bénédiction de liberté",
+					["icon"] = 135964,
+					["spell"] = "Bénédiction de protection",
 				}, -- [16]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON3",
-					["spellSubName"] = "Faë nocturnes",
+					["spell"] = "Bénédiction de l’été",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 3636845,
-					["spell"] = "Bénédiction de l’été",
+					["spellSubName"] = "Faë nocturnes",
 				}, -- [17]
 			},
 		},
 		["Laitmeumeu - Ysondre"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "CTRL-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -451,21 +473,21 @@ CliqueDB3 = {
 				}, -- [3]
 				{
 					["type"] = "spell",
+					["key"] = "BUTTON5",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 134914,
+					["spell"] = "Prompte guérison",
+				}, -- [4]
+				{
+					["type"] = "spell",
 					["key"] = "SHIFT-F",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136076,
 					["spell"] = "Rapidité de la nature",
-				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "A",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 134206,
-					["spell"] = "Fleur de vie",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -478,13 +500,22 @@ CliqueDB3 = {
 				}, -- [6]
 				{
 					["type"] = "spell",
+					["key"] = "A",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 134206,
+					["spell"] = "Fleur de vie",
+				}, -- [7]
+				{
+					["type"] = "spell",
 					["key"] = "E",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 236153,
 					["spell"] = "Croissance sauvage",
-				}, -- [7]
+				}, -- [8]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-4",
@@ -493,15 +524,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 136080,
 					["spell"] = "Renaissance",
-				}, -- [8]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON5",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 134914,
-					["spell"] = "Prompte guérison",
 				}, -- [9]
 				{
 					["type"] = "spell",
@@ -513,13 +535,12 @@ CliqueDB3 = {
 					["spell"] = "Lacis",
 				}, -- [10]
 				{
-					["type"] = "spell",
-					["key"] = "SHIFT-2",
+					["macrotext"] = "#showtooltip Charge sauvage\n/cancelform\n/cast [@mouseover] Charge sauvage",
+					["type"] = "macro",
+					["key"] = "4",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 572025,
-					["spell"] = "Ecorcefer",
 				}, -- [11]
 				{
 					["type"] = "spell",
@@ -533,13 +554,22 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "5",
-					["spellSubName"] = "Talent JcJ",
+					["spell"] = "Épines",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136104,
-					["spell"] = "Épines",
+					["spellSubName"] = "Talent JcJ",
 				}, -- [13]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 572025,
+					["spell"] = "Ecorcefer",
+				}, -- [14]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
@@ -548,13 +578,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 136081,
 					["spell"] = "Récupération",
-				}, -- [14]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
 				}, -- [15]
 				{
 					["type"] = "spell",
@@ -566,6 +589,13 @@ CliqueDB3 = {
 					["spell"] = "Rétablissement",
 				}, -- [16]
 				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [17]
+				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON3",
 					["sets"] = {
@@ -573,14 +603,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 136048,
 					["spell"] = "Innervation",
-				}, -- [17]
-				{
-					["macrotext"] = "#showtooltip Charge sauvage\n/cancelform\n/cast [@mouseover] Charge sauvage",
-					["type"] = "macro",
-					["key"] = "4",
-					["sets"] = {
-						["default"] = true,
-					},
 				}, -- [18]
 				{
 					["type"] = "spell",
@@ -593,35 +615,33 @@ CliqueDB3 = {
 				}, -- [19]
 			},
 		},
-		["Témaléflam - Ysondre"] = {
+		["Roulbouboule - Ysondre"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "CTRL-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["spell"] = "Éliminer",
+					["key"] = "F",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 4630445,
-					["spellSubName"] = "Vert",
+					["icon"] = 1360980,
+					["spell"] = "Vivifier",
 				}, -- [2]
 				{
 					["type"] = "spell",
-					["key"] = "R",
-					["spell"] = "Étreinte verdoyante",
+					["key"] = "BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 4622471,
-					["spellSubName"] = "Vert",
+					["icon"] = 613397,
+					["spell"] = "Impulsion zen",
 				}, -- [3]
 				{
 					["type"] = "menu",
@@ -632,84 +652,114 @@ CliqueDB3 = {
 				}, -- [4]
 				{
 					["type"] = "spell",
-					["key"] = "F",
-					["spellSubName"] = "Rouge",
+					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 4622464,
-					["spell"] = "Flamme vivante",
+					["icon"] = 460692,
+					["spell"] = "Détoxification",
 				}, -- [5]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-A",
+					["key"] = "SHIFT-E",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 4622460,
-					["spell"] = "Secourir",
+					["icon"] = 775461,
+					["spell"] = "Brume enveloppante",
 				}, -- [6]
 				{
 					["type"] = "spell",
-					["key"] = "A",
-					["spell"] = "Écho",
+					["key"] = "BUTTON1",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 4622456,
-					["spellSubName"] = "Bronze",
+					["icon"] = 627487,
+					["spell"] = "Brume de rénovation",
 				}, -- [7]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-R",
-					["spell"] = "Arbre d’émeraude",
+					["key"] = "3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 4622457,
-					["spellSubName"] = "Vert",
+					["icon"] = 651727,
+					["spell"] = "Soif du tigre",
 				}, -- [8]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-MOUSEWHEELDOWN",
-					["spell"] = "Flamme de cautérisation",
+					["key"] = "SHIFT-3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 4630446,
-					["spellSubName"] = "Rouge",
+					["icon"] = 627485,
+					["spell"] = "Cocon de vie",
 				}, -- [9]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["spellSubName"] = "Bronze",
+					["key"] = "R",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 4630467,
-					["spell"] = "Réversion",
+					["icon"] = 606550,
+					["spell"] = "Brume apaisante",
 				}, -- [10]
+				{
+					["macrotext"] = "/cast Thé de concentration foudroyante\n/cast  [@mouseover, help, nodead] Brume enveloppante",
+					["type"] = "macro",
+					["key"] = "4",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [11]
+				{
+					["macrotext"] = "/ping [@mouseover,harm] Warning; [@mouseover,help] Ping; [@mouseover,exists] Ping\n/stopmacro [@mouseover,exists]\n/ping",
+					["type"] = "macro",
+					["key"] = "ALT-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [12]
 			},
 		},
-		["Kikouyou - Ysondre"] = {
+		["Coloss - Ysondre"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
 						["default"] = true,
 					},
 					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Kikouyou - Ysondre"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
 					["key"] = "CTRL-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON5",
-					["spell"] = "Vague primordiale",
+					["spellSubName"] = "Ombreterre",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 3578231,
-					["spellSubName"] = "Ombreterre",
+					["spell"] = "Vague primordiale",
 				}, -- [2]
 				{
 					["type"] = "menu",
@@ -775,13 +825,13 @@ CliqueDB3 = {
 				}, -- [9]
 			},
 		},
-		["Colèrecolère - Ysondre"] = {
+		["Kisskouille - Ysondre"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -797,10 +847,10 @@ CliqueDB3 = {
 		["Tyrance - Ysondre"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -816,10 +866,10 @@ CliqueDB3 = {
 		["Lézarbizar - Ysondre"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -832,51 +882,13 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Kisskouille - Ysondre"] = {
+		["Témaléflam - Ysondre"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
-		["Coloss - Ysondre"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
-		["Roulbouboule - Ysondre"] = {
-			["bindings"] = {
-				{
-					["sets"] = {
-						["default"] = true,
-					},
-					["type"] = "target",
 					["key"] = "CTRL-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -889,67 +901,131 @@ CliqueDB3 = {
 				}, -- [2]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
+					["key"] = "F",
+					["spell"] = "Flamme vivante",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 460692,
-					["spell"] = "Détoxification",
+					["icon"] = 4622464,
+					["spellSubName"] = "Rouge",
 				}, -- [3]
 				{
 					["type"] = "spell",
-					["key"] = "E",
+					["key"] = "SHIFT-BUTTON1",
+					["spellSubName"] = "Vert",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 627487,
-					["spell"] = "Brume de rénovation",
+					["icon"] = 4630445,
+					["spell"] = "Éliminer",
 				}, -- [4]
 				{
 					["type"] = "spell",
-					["key"] = "F",
+					["key"] = "R",
+					["spellSubName"] = "Vert",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 1360980,
-					["spell"] = "Vivifier",
+					["icon"] = 4622471,
+					["spell"] = "Étreinte verdoyante",
 				}, -- [5]
-				{
-					["type"] = "spell",
-					["key"] = "1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 606550,
-					["spell"] = "Brume apaisante",
-				}, -- [6]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-F",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 775461,
-					["spell"] = "Brume enveloppante",
-				}, -- [7]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 627485,
-					["spell"] = "Cocon de vie",
-				}, -- [8]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-A",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 613397,
-					["spell"] = "Impulsion zen",
+					["icon"] = 4622460,
+					["spell"] = "Secourir",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON3",
+					["spellSubName"] = "Rouge",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 4630446,
+					["spell"] = "Flamme de cautérisation",
+				}, -- [7]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON1",
+					["spell"] = "Réversion",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 4630467,
+					["spellSubName"] = "Bronze",
+				}, -- [8]
+				{
+					["type"] = "spell",
+					["key"] = "A",
+					["spellSubName"] = "Bronze",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 4622456,
+					["spell"] = "Écho",
 				}, -- [9]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-R",
+					["spellSubName"] = "Vert",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 4622457,
+					["spell"] = "Arbre d’émeraude",
+				}, -- [10]
+				{
+					["type"] = "spell",
+					["key"] = "A",
+					["spell"] = "Écailles torrides",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 5199621,
+					["spellSubName"] = "Noir",
+				}, -- [11]
+			},
+		},
+		["Colèrecolère - Ysondre"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Firnaël - La Croisade écarlate"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
 			},
 		},
 	},

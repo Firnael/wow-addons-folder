@@ -1,5 +1,174 @@
 
 EncounterDetailsDB = {
+	["chartData"] = {
+		[708] = {
+		},
+		[710] = {
+		},
+		[712] = {
+		},
+		[714] = {
+		},
+		[716] = {
+		},
+		[718] = {
+		},
+		[720] = {
+		},
+		[722] = {
+		},
+		[724] = {
+		},
+		[726] = {
+		},
+		[728] = {
+		},
+		[730] = {
+		},
+		[732] = {
+		},
+		[734] = {
+		},
+		[736] = {
+		},
+		[738] = {
+		},
+		[740] = {
+			["Raid Damage Done"] = {
+				12277, -- [1]
+				24117, -- [2]
+				["max_value"] = 24117,
+				["__time"] = 1704719305,
+			},
+		},
+		[742] = {
+			["Raid Damage Done"] = {
+				30201, -- [1]
+				20331, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				["max_value"] = 30201,
+				["__time"] = 1704719541,
+			},
+		},
+		[744] = {
+			["Raid Damage Done"] = {
+				203716, -- [1]
+				0, -- [2]
+				22017, -- [3]
+				134509, -- [4]
+				93741, -- [5]
+				26418, -- [6]
+				0, -- [7]
+				58367, -- [8]
+				30821, -- [9]
+				0, -- [10]
+				22015, -- [11]
+				22015, -- [12]
+				["max_value"] = 203716,
+				["__time"] = 1704720143,
+			},
+		},
+		[709] = {
+		},
+		[711] = {
+		},
+		[713] = {
+		},
+		[715] = {
+		},
+		[717] = {
+		},
+		[719] = {
+		},
+		[721] = {
+		},
+		[723] = {
+		},
+		[725] = {
+		},
+		[727] = {
+		},
+		[729] = {
+		},
+		[731] = {
+		},
+		[733] = {
+		},
+		[735] = {
+		},
+		[737] = {
+		},
+		[739] = {
+			["Raid Damage Done"] = {
+				20276, -- [1]
+				0, -- [2]
+				20029, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				10634, -- [10]
+				10667, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				["max_value"] = 20276,
+				["__time"] = 1704719302,
+			},
+		},
+		[741] = {
+			["Raid Damage Done"] = {
+				19770, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				4000, -- [6]
+				["max_value"] = 19770,
+				["__time"] = 1704719312,
+			},
+		},
+		[743] = {
+			["Raid Damage Done"] = {
+				41663, -- [1]
+				0, -- [2]
+				19972, -- [3]
+				0, -- [4]
+				103650, -- [5]
+				0, -- [6]
+				0, -- [7]
+				80690, -- [8]
+				223261, -- [9]
+				20994, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				["max_value"] = 223261,
+				["__time"] = 1704720129,
+			},
+		},
+		[745] = {
+			["Raid Damage Done"] = {
+				18045, -- [1]
+				["max_value"] = 18045,
+				["__time"] = 1704720155,
+			},
+		},
+	},
 	["encounter_spells"] = {
 		[369052] = {
 			["school"] = 4,
@@ -736,8 +905,8 @@ EncounterDetailsDB = {
 		[197454] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Avatar de la vengeance",
 		},
@@ -1286,13 +1455,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Oracle glissefiel",
 		},
-		[125096] = {
+		[193633] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Enorme quilen de pierre",
+			["source"] = "Archère ressuscitée",
 		},
 		[192619] = {
 			["school"] = 16,
@@ -1301,13 +1471,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Courroux d'Azshara",
 		},
-		[387504] = {
-			["school"] = 16,
+		[123996] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tsunami primordial",
+			["source"] = "Xuen",
 		},
 		[372718] = {
 			["school"] = 1,
@@ -1364,30 +1533,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Eric « l'Agile »",
 		},
-		[386559] = {
-			["school"] = 16,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Khajin l'Inflexible",
-		},
-		[392375] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Esprit du loup",
-		},
-		[385451] = {
-			["school"] = 8,
+		[198080] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Goliath gobeur",
+			["source"] = "Vexécrase le Haineux",
+		},
+		[192094] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Seigneur de guerre Parjesh",
+		},
+		[196376] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Archidruide Glaidalis",
 		},
 		[217851] = {
 			["school"] = 8,
@@ -1413,13 +1582,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Goliath gobeur",
 		},
-		[188494] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[197333] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Cordana Gangrechant",
 		},
 		[207887] = {
 			["school"] = 4,
@@ -1452,12 +1620,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ombre de Xavius",
 		},
-		[198386] = {
-			["school"] = 1,
+		[199919] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Archidruide Glaidalis",
+			["source"] = "Lanceur du vide sans-visage",
 		},
 		[191855] = {
 			["school"] = 8,
@@ -1475,14 +1643,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Seigneur de guerre Parjesh",
 		},
-		[198833] = {
-			["school"] = 32,
+		[369049] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Latosius",
+			["source"] = "Gardien de caveau",
 		},
 		[389446] = {
 			["school"] = 64,
@@ -1502,43 +1669,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Garde Iridéus",
 		},
-		[384015] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Garde Iridéus",
-		},
-		[384014] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[192108] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Garde Iridéus",
 		},
-		[384524] = {
+		[201733] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Garde Iridéus",
-		},
-		[199193] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Dantalionax",
+		},
+		[196354] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Archidruide Glaidalis",
+		},
+		[194956] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Amalgame d’âmes",
 		},
 		[369573] = {
 			["school"] = 1,
@@ -1549,12 +1712,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Baelog",
 		},
-		[192675] = {
-			["school"] = 64,
+		[191853] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Tornade mystique",
+			["source"] = "Tirathon Saltheril",
 		},
 		[216376] = {
 			["school"] = 4,
@@ -1562,14 +1727,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[195108] = {
+		[200182] = {
 			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tisse-tempête glissefiel",
+			["source"] = "Ombre de Xavius",
 		},
 		[383840] = {
 			["school"] = 64,
@@ -1580,21 +1746,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Garde Iridéus",
 		},
-		[200898] = {
-			["school"] = 1,
+		[200404] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dargrul",
+		},
+		[372623] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Inquisiteur Tourmentorum",
-		},
-		[389486] = {
-			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Garde Iridéus",
+			["source"] = "Sentinelle Talondras",
 		},
 		[197478] = {
 			["school"] = 1,
@@ -1605,28 +1772,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illysanna Corvaltus",
 		},
-		[376049] = {
+		[200732] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dargrul",
+		},
+		[369563] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Chronoseigneur Déios",
+			["source"] = "Baelog",
 		},
-		[198820] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Latosius",
-		},
-		[207907] = {
+		[201902] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Talixae Voluteflamme",
+			["source"] = "Mornœil cœur-corrompu",
 		},
 		[200289] = {
 			["school"] = 1,
@@ -1646,12 +1815,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sentinelle Talondras",
 		},
-		[202919] = {
-			["school"] = 4,
+		[195254] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Tirathon Saltheril",
+			["source"] = "Amalgame d’âmes",
 		},
 		[374389] = {
 			["school"] = 8,
@@ -1662,23 +1832,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bufflouille curieuse",
 		},
-		[212564] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Orbe tourmenteur",
-		},
-		[198073] = {
+		[204899] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Vexécrase le Haineux",
+			["source"] = "Gardien des secrets mogu’shan",
+		},
+		[192522] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Scor’roc",
+		},
+		[59638] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Image miroir",
 		},
 		[369791] = {
 			["school"] = 1,
@@ -1689,13 +1863,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Eric « l'Agile »",
-		},
-		[59638] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Image miroir",
 		},
 		[213576] = {
 			["school"] = 32,
@@ -1713,13 +1880,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Conseiller Melandrus",
 		},
-		[193159] = {
-			["school"] = 1,
+		[196508] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Secousse",
+			["source"] = "Ecorcheur d’esprit dérangé",
 		},
 		[369792] = {
 			["school"] = 1,
@@ -1728,22 +1898,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Eric « l'Agile »",
 		},
-		[214771] = {
-			["school"] = 32,
+		[191765] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Tirathon Saltheril",
+		},
+		[193273] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lanceur du vide sans-visage",
-		},
-		[210136] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Enorme quilen de pierre",
+			["source"] = "Idole rugissante",
 		},
 		[375286] = {
 			["school"] = 4,
@@ -1771,20 +1938,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Naraxas",
 		},
-		[375924] = {
+		[369110] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Pyron",
+		},
+		[199389] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Eric « l'Agile »",
-		},
-		[193171] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Secousse",
+			["source"] = "Dresaron",
 		},
 		[221315] = {
 			["school"] = 1,
@@ -1804,13 +1974,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Goliath gobeur",
 		},
-		[217011] = {
-			["school"] = 1,
+		[193210] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Foule en colère",
+			["source"] = "Scor’roc",
 		},
 		[196587] = {
 			["school"] = 32,
@@ -1832,21 +2001,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Trappeur pierre-lié",
 		},
-		[198376] = {
-			["school"] = 1,
+		[194966] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archidruide Glaidalis",
+			["source"] = "Amalgame d’âmes",
 		},
-		[201959] = {
-			["school"] = 8,
+		[199915] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Dominateur braise-chitine",
+			["source"] = "Lanceur du vide sans-visage",
 		},
 		[201953] = {
 			["school"] = 8,
@@ -1865,13 +2036,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illysanna Corvaltus",
 		},
-		[199629] = {
+		[192621] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Naraxas",
+			["source"] = "Scor’roc",
 		},
 		[197546] = {
 			["school"] = 1,
@@ -1909,14 +2080,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rôdeur crache-goudron",
 		},
-		[195188] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[192633] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Braise",
+			["source"] = "Courroux d'Azshara",
 		},
 		[193267] = {
 			["school"] = 1,
@@ -1942,13 +2111,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Embusqué cavepierre",
 		},
-		[202913] = {
-			["school"] = 1,
+		[192050] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Tirathon Saltheril",
+			["source"] = "Serpentrix",
 		},
 		[196078] = {
 			["school"] = 1,
@@ -1958,22 +2127,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Amalgame d’âmes",
 		},
-		[204574] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Chênecœur",
-		},
-		[199460] = {
-			["school"] = 1,
+		[376325] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Dresaron",
+		},
+		[197521] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Illysanna Corvaltus",
 		},
 		[369033] = {
 			["school"] = 1,
@@ -2011,14 +2180,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illysanna Corvaltus",
 		},
-		[195332] = {
-			["school"] = 4,
+		[369677] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Braise",
+			["source"] = "Olaf",
 		},
 		[192502] = {
 			["school"] = 1,
@@ -2035,15 +2204,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Courroux d'Azshara",
 		},
-		[198379] = {
+		[192631] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Archidruide Glaidalis",
+			["source"] = "Scor’roc",
 		},
 		[200359] = {
 			["school"] = 1,
@@ -2060,14 +2227,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tsunami primordial",
 		},
-		[212561] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[213583] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Mastodonte touché par le Vide",
+			["source"] = "Cordana Gangrechant",
 		},
 		[200551] = {
 			["school"] = 8,
@@ -2077,13 +2243,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dargrul",
 		},
-		[204905] = {
-			["school"] = 1,
+		[376319] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Gardien des secrets mogu’shan",
+			["source"] = "Chronoseigneur Déios",
 		},
 		[198635] = {
 			["school"] = 1,
@@ -2096,22 +2261,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kur’talos Corvaltus",
 		},
-		[214988] = {
+		[192504] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Esprit de la vengeance",
+			["source"] = "Tirathon Saltheril",
 		},
-		[192631] = {
+		[183433] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Scor’roc",
+			["source"] = "Rôdeur crache-goudron",
 		},
 		[193717] = {
 			["school"] = 64,
@@ -2121,12 +2288,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dame Glissefiel",
 		},
-		[376319] = {
-			["school"] = 64,
+		[215754] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Chronoseigneur Déios",
+			["source"] = "Rejeton de Serpentrix",
 		},
 		[197422] = {
 			["school"] = 1,
@@ -2155,73 +2322,75 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Roi Barbe-Fond",
 		},
-		[369677] = {
+		[214988] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Olaf",
+			["source"] = "Esprit de la vengeance",
 		},
-		[215754] = {
+		[204905] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Gardien des secrets mogu’shan",
+		},
+		[212561] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mastodonte touché par le Vide",
+		},
+		[198379] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Archidruide Glaidalis",
+		},
+		[195332] = {
 			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rejeton de Serpentrix",
+			["source"] = "Braise",
 		},
-		[213583] = {
-			["school"] = 32,
+		[204574] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Cordana Gangrechant",
+			["source"] = "Chênecœur",
 		},
-		[183433] = {
+		[202913] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Rôdeur crache-goudron",
-		},
-		[192504] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Tirathon Saltheril",
 		},
-		[197521] = {
-			["school"] = 4,
+		[199460] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Illysanna Corvaltus",
-		},
-		[376325] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-		},
-		[192050] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Serpentrix",
+			["source"] = "Dresaron",
 		},
 		[214989] = {
 			["school"] = 1,
@@ -2240,45 +2409,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sentinelle Talondras",
 		},
-		[192633] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Courroux d'Azshara",
-		},
-		[192621] = {
+		[195188] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Scor’roc",
-		},
-		[199915] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Lanceur du vide sans-visage",
-		},
-		[194966] = {
-			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Amalgame d’âmes",
+			["source"] = "Braise",
 		},
-		[193210] = {
-			["school"] = 4,
+		[199629] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Naraxas",
+		},
+		[201959] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Dominateur braise-chitine",
+		},
+		[198376] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Scor’roc",
+			["source"] = "Archidruide Glaidalis",
+		},
+		[217011] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Foule en colère",
 		},
 		[207261] = {
 			["school"] = 64,
@@ -2296,23 +2466,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vexécrase le Haineux",
 		},
-		[199389] = {
+		[193171] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dresaron",
+			["source"] = "Secousse",
 		},
-		[369110] = {
+		[375924] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Pyron",
+			["source"] = "Eric « l'Agile »",
 		},
 		[193209] = {
 			["school"] = 1,
@@ -2323,30 +2490,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Scor’roc",
 		},
-		[193273] = {
+		[210136] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Idole rugissante",
-		},
-		[191765] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Tirathon Saltheril",
-		},
-		[196508] = {
-			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Enorme quilen de pierre",
+		},
+		[214771] = {
+			["school"] = 32,
+			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ecorcheur d’esprit dérangé",
+			["source"] = "Lanceur du vide sans-visage",
+		},
+		[193159] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Secousse",
 		},
 		[203685] = {
 			["school"] = 1,
@@ -2369,80 +2536,78 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Roi Barbe-Fond",
 		},
-		[192522] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Scor’roc",
-		},
-		[204899] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Gardien des secrets mogu’shan",
-		},
-		[195254] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Amalgame d’âmes",
-		},
-		[201902] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Mornœil cœur-corrompu",
-		},
-		[369563] = {
+		[198073] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Baelog",
+			["source"] = "Vexécrase le Haineux",
 		},
-		[200732] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Dargrul",
-		},
-		[372623] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Sentinelle Talondras",
-		},
-		[200404] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Dargrul",
-		},
-		[200182] = {
-			["school"] = 8,
+		[212564] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ombre de Xavius",
+			["source"] = "Orbe tourmenteur",
+		},
+		[202919] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tirathon Saltheril",
+		},
+		[198820] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Latosius",
+		},
+		[376049] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Chronoseigneur Déios",
+		},
+		[207907] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Talixae Voluteflamme",
+		},
+		[389486] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Garde Iridéus",
+		},
+		[200898] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Inquisiteur Tourmentorum",
+		},
+		[195108] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tisse-tempête glissefiel",
 		},
 		[212565] = {
 			["school"] = 1,
@@ -2452,14 +2617,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Orbe tourmenteur",
 		},
-		[191853] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[192675] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tirathon Saltheril",
+			["source"] = "Tornade mystique",
 		},
 		[387571] = {
 			["school"] = 16,
@@ -2472,39 +2635,43 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tsunami primordial",
 		},
-		[194956] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Amalgame d’âmes",
-		},
-		[196354] = {
+		[199193] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Archidruide Glaidalis",
-		},
-		[201733] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Dantalionax",
 		},
-		[192108] = {
+		[384524] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Garde Iridéus",
+		},
+		[384014] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Garde Iridéus",
+		},
+		[384015] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Garde Iridéus",
 		},
 		[200238] = {
 			["school"] = 32,
@@ -2525,27 +2692,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tsunami primordial",
 		},
-		[369049] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Gardien de caveau",
-		},
-		[199919] = {
+		[198833] = {
 			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lanceur du vide sans-visage",
+			["source"] = "Latosius",
 		},
-		[197333] = {
+		[198386] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Cordana Gangrechant",
+			["source"] = "Archidruide Glaidalis",
+		},
+		[188494] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
 		},
 		[204646] = {
 			["school"] = 1,
@@ -2562,30 +2731,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ombre de Xavius",
 		},
-		[196376] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Archidruide Glaidalis",
-		},
-		[192094] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Seigneur de guerre Parjesh",
-		},
-		[198080] = {
-			["school"] = 1,
+		[385451] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Vexécrase le Haineux",
+			["source"] = "Goliath gobeur",
+		},
+		[392375] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Esprit du loup",
+		},
+		[386559] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Khajin l'Inflexible",
 		},
 		[199345] = {
 			["school"] = 1,
@@ -2605,21 +2774,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Goliath gobeur",
 		},
-		[123996] = {
-			["school"] = 8,
+		[387504] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Xuen",
+			["source"] = "Tsunami primordial",
 		},
-		[193633] = {
+		[125096] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archère ressuscitée",
+			["source"] = "Enorme quilen de pierre",
 		},
 	},
 	["emotes"] = {

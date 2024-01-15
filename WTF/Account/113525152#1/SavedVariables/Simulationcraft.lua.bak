@@ -1,0 +1,31 @@
+
+SimulationCraftDB = {
+	["profileKeys"] = {
+		["Havok - La Croisade écarlate"] = "Havok - La Croisade écarlate",
+		["Croclardon - Ysondre"] = "Croclardon - Ysondre",
+		["Jesuisgentil - Ysondre"] = "Jesuisgentil - Ysondre",
+		["Firnaël - La Croisade écarlate"] = "Firnaël - La Croisade écarlate",
+		["Laitmeumeu - Ysondre"] = "Laitmeumeu - Ysondre",
+		["Témaléflam - Ysondre"] = "Témaléflam - Ysondre",
+		["Roulbouboule - Ysondre"] = "Roulbouboule - Ysondre",
+	},
+	["profiles"] = {
+		["Havok - La Croisade écarlate"] = {
+		},
+		["Croclardon - Ysondre"] = {
+		},
+		["Jesuisgentil - Ysondre"] = {
+		},
+		["Firnaël - La Croisade écarlate"] = {
+		},
+		["Laitmeumeu - Ysondre"] = {
+		},
+		["Témaléflam - Ysondre"] = {
+		},
+		["Roulbouboule - Ysondre"] = {
+			["minimap"] = {
+				["minimapPos"] = 248.4996187328608,
+			},
+		},
+	},
+}

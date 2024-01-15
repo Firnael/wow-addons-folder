@@ -1,15 +1,6 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			["boss"] = "Chronoseigneur Déios",
-		}, -- [1]
-		{
-			["boss"] = "Pyron",
-		}, -- [2]
-		{
-			["boss"] = "Sentinelle Talondras",
-		}, -- [3]
+	["chartData"] = {
 	},
 	["encounter_spells"] = {
 		[361882] = {
@@ -2211,12 +2202,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Agent de sécurité de l'oasis",
 		},
-		[376319] = {
-			["school"] = 64,
+		[363020] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Chronoseigneur Déios",
+			["source"] = "Ame diabolique",
 		},
 		[324090] = {
 			["school"] = 1,
@@ -2263,13 +2257,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rygelon",
 		},
-		[320823] = {
-			["school"] = 4,
+		[352536] = {
+			["school"] = 40,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Millificent Tempête-de-Mana",
+			["source"] = "Suinteux de Kevin",
 		},
 		[324148] = {
 			["school"] = 1,
@@ -2494,19 +2488,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cube de bric-à-brac",
 		},
-		[361750] = {
-			["school"] = 1,
+		[320830] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Dausegne",
-		},
-		[360983] = {
-			["school"] = 32,
-			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dausegne",
+			["source"] = "Ecureuil-bombe mécanique",
+		},
+		[163740] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Ahri’ok Dugru",
 		},
 		[260249] = {
 			["school"] = 1,
@@ -2516,14 +2513,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Välysra-Archimonde",
 		},
-		[353312] = {
-			["school"] = 2,
+		[325691] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hylbrande",
+			["source"] = "Mueh'zala",
 		},
 		[361751] = {
 			["school"] = 32,
@@ -2553,21 +2548,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kin-Tara",
 		},
-		[325691] = {
-			["school"] = 32,
+		[353312] = {
+			["school"] = 2,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mueh'zala",
+			["source"] = "Hylbrande",
 		},
-		[217832] = {
-			["school"] = 32,
+		[362775] = {
+			["school"] = 48,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Dreadlayz-Uldaman",
+			["source"] = "Vestige d’un roi déchu",
 		},
 		[163741] = {
 			["school"] = 4,
@@ -2684,12 +2680,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lothrys",
 		},
-		[320580] = {
-			["school"] = 1,
+		[364569] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Amarth",
+			["source"] = "Effondrement de quasar",
 		},
 		[324146] = {
 			["school"] = 1,
@@ -2843,19 +2840,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Amarth",
 		},
-		[365853] = {
-			["school"] = 34,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Barrière souillée",
-		},
 		[165152] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Makogg Braiselame",
+		},
+		[365853] = {
+			["school"] = 34,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Barrière souillée",
 		},
 		[162066] = {
 			["school"] = 16,
@@ -2895,13 +2892,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cerf runique noble-bois",
 		},
-		[362275] = {
-			["school"] = 106,
+		[349999] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rygelon",
+			["source"] = "Achillite",
 		},
 		[350101] = {
 			["school"] = 1,
@@ -2913,13 +2911,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Venza Mèchedor",
 		},
-		[360229] = {
-			["school"] = 8,
+		[362275] = {
+			["school"] = 106,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kin’tessa",
+			["source"] = "Rygelon",
 		},
 		[12472] = {
 			["school"] = 16,
@@ -2930,14 +2928,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lothrys",
 		},
-		[349999] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
+		[360229] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Achillite",
+			["source"] = "Kin’tessa",
 		},
 		[178155] = {
 			["school"] = 8,
@@ -2995,15 +2992,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Skolex",
 		},
-		[334913] = {
-			["school"] = 32,
+		[370718] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Mueh'zala",
+			["source"] = "Le Geôlier",
 		},
 		[166561] = {
 			["school"] = 1,
@@ -3020,12 +3015,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nitrogg Tour-de-Tonnerre",
 		},
-		[360999] = {
-			["school"] = 106,
+		[359976] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sentinelle préfabriquée",
+			["source"] = "Skolex",
 		},
 		[324427] = {
 			["school"] = 1,
@@ -3035,13 +3032,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Oryphrione",
 		},
-		[370718] = {
-			["school"] = 1,
+		[334913] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Le Geôlier",
+			["source"] = "Mueh'zala",
 		},
 		[322893] = {
 			["school"] = 1,
@@ -3061,12 +3060,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Visage démoli",
 		},
-		[369697] = {
+		[361513] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Embusqué cavepierre",
+			["source"] = "Dausegne",
 		},
 		[369696] = {
 			["school"] = 1,
@@ -3083,12 +3085,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rùan-Hyjal",
 		},
-		[2139] = {
-			["school"] = 64,
+		[361001] = {
+			["school"] = 106,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Lothrys",
+			["source"] = "Rondier vigilant",
 		},
 		[347958] = {
 			["school"] = 2,
@@ -3099,15 +3102,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Purificateur du caveau",
 		},
-		[361513] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[291949] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dausegne",
+			["source"] = "K.U.-J.0.",
 		},
 		[361863] = {
 			["school"] = 32,
@@ -3116,12 +3116,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dausegne",
 		},
-		[362025] = {
+		[359979] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Halondrus",
+			["source"] = "Skolex",
 		},
 		[157228] = {
 			["school"] = 1,
@@ -3257,6 +3258,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Canon d’assaut",
 		},
+		[104318] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Diablotin sauvage",
+		},
 		[1604] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -3265,21 +3273,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dreadlayz-Uldaman",
 		},
-		[104318] = {
-			["school"] = 4,
+		[349498] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Diablotin sauvage",
-		},
-		[364843] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Gardien vigilant",
+			["source"] = "Alcruux",
 		},
 		[364240] = {
 			["school"] = 64,
@@ -3321,14 +3321,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unité d'oppression aérienne CT-8",
 		},
-		[164648] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[364845] = {
+			["school"] = 106,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Jette-flamme grom’kar",
+			["source"] = "Gardien vigilant",
 		},
 		[167589] = {
 			["school"] = 1,
@@ -3338,12 +3336,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Canon d’assaut",
 		},
-		[364845] = {
-			["school"] = 106,
+		[164648] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Gardien vigilant",
+			["source"] = "Jette-flamme grom’kar",
 		},
 		[122] = {
 			["school"] = 16,
@@ -3458,14 +3458,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Client turbulent",
 		},
-		[362803] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Artificier Xy’mox",
-		},
 		[365872] = {
 			["school"] = 2,
 			["token"] = {
@@ -3473,6 +3465,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Anduin Wrynn",
+		},
+		[362803] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Artificier Xy’mox",
 		},
 		[408] = {
 			["school"] = 1,
@@ -3530,14 +3530,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dreadlayz-Uldaman",
 		},
-		[322908] = {
+		[362805] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Déva",
+			["source"] = "Dausegne",
 		},
 		[347716] = {
 			["school"] = 1,
@@ -3564,13 +3562,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mitrailleur grom’kar",
 		},
-		[270481] = {
-			["school"] = 36,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Tyran démoniaque",
-		},
 		[166570] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -3579,6 +3570,13 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Canon d’assaut",
+		},
+		[270481] = {
+			["school"] = 36,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tyran démoniaque",
 		},
 		[324444] = {
 			["school"] = 1,
@@ -3668,6 +3666,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Marche des damnés",
 		},
+		[162513] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Maître du rail Fusétincelle",
+		},
 		[353414] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -3676,20 +3681,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zo'phex",
 		},
-		[162513] = {
-			["school"] = 4,
+		[315496] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Maître du rail Fusétincelle",
-		},
-		[169129] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Explosion de fumées",
+			["source"] = "Rùan-Hyjal",
 		},
 		[365293] = {
 			["school"] = 34,
@@ -3742,29 +3739,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hylbrande",
 		},
-		[361278] = {
+		[163376] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Neesa Nox",
+		},
+		[368950] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Prototype du devoir",
+			["source"] = "Halondrus",
 		},
-		[361789] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Main de la destruction",
-		},
-		[301177] = {
-			["school"] = 4,
+		[320614] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unité d'oppression aérienne CT-8",
+			["source"] = "Ver putride",
 		},
 		[366393] = {
 			["school"] = 106,
@@ -3776,14 +3774,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Drone de défense rapprochée",
 		},
-		[320614] = {
-			["school"] = 1,
+		[301177] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ver putride",
+			["source"] = "Unité d'oppression aérienne CT-8",
 		},
 		[365371] = {
 			["school"] = 32,
@@ -3807,12 +3803,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tourelle de défense titanesque",
 		},
-		[357188] = {
-			["school"] = 4,
+		[360257] = {
+			["school"] = 106,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "So'azmi",
+			["source"] = "Gardien vigilant",
 		},
 		[357189] = {
 			["school"] = 1,
@@ -3829,12 +3825,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unité d'oppression aérienne CT-8",
 		},
-		[360257] = {
-			["school"] = 106,
+		[357188] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Gardien vigilant",
+			["source"] = "So'azmi",
 		},
 		[291972] = {
 			["school"] = 1,
@@ -3844,31 +3840,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "K.U.-J.0.",
 		},
-		[283534] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Magnéto-bras",
-		},
-		[291974] = {
-			["school"] = 1,
+		[360259] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Roi Mécagone",
+			["source"] = "Prototype de la guerre",
 		},
-		[359235] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[353354] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Halondrus",
+			["source"] = "Collectia-Hyjal",
+		},
+		[346959] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Tourelle de défense titanesque",
 		},
 		[291973] = {
 			["school"] = 1,
@@ -3894,30 +3890,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "So'leah",
 		},
-		[360259] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[346960] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Prototype de la guerre",
+			["source"] = "Hylbrande",
 		},
-		[353354] = {
+		[291974] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Roi Mécagone",
+		},
+		[161588] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Collectia-Hyjal",
-		},
-		[323943] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Déva",
+			["source"] = "Seigneur du ciel Tovra",
 		},
 		[368020] = {
 			["school"] = 32,
@@ -3928,14 +3924,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dausegne",
 		},
-		[11426] = {
-			["school"] = 16,
+		[360260] = {
+			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lothrys",
+			["source"] = "Nuage léthargique",
 		},
 		[360516] = {
 			["school"] = 1,
@@ -3946,14 +3942,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kin’tessa",
 		},
-		[346962] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[163379] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Maître de P.O.S.T.E.",
+			["source"] = "Sapeur",
 		},
 		[365120] = {
 			["school"] = 32,
@@ -3963,13 +3958,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anduin Wrynn",
 		},
-		[163379] = {
-			["school"] = 4,
+		[346962] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Sapeur",
+			["source"] = "Maître de P.O.S.T.E.",
 		},
 		[359980] = {
 			["school"] = 1,
@@ -4100,6 +4096,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Suinteux de Kevin",
 		},
+		[205708] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lothrys",
+		},
 		[362056] = {
 			["school"] = 106,
 			["token"] = {
@@ -4119,13 +4123,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ventunax",
 		},
-		[205708] = {
+		[228598] = {
 			["school"] = 16,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Lothrys",
+		},
+		[365126] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Prototype de l’absolution",
 		},
 		[48518] = {
 			["school"] = 1,
@@ -4143,21 +4154,6 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "So'leah",
-		},
-		[228598] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Lothrys",
-		},
-		[365126] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Prototype de l’absolution",
 		},
 		[350037] = {
 			["school"] = 1,
@@ -4272,11 +4268,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zo'phex",
 		},
-		[360528] = {
-			["school"] = 106,
+		[338022] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Soldat recousu",
 		},
 		[360015] = {
 			["school"] = 40,
@@ -4285,22 +4282,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mal’Ganis",
 		},
-		[296080] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Unité d'oppression aérienne CT-8",
-		},
-		[320630] = {
-			["school"] = 1,
+		[363598] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ver putride",
+			["source"] = "Rygelon",
+		},
+		[366665] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
 		},
 		[162617] = {
 			["school"] = 1,
@@ -4326,21 +4324,18 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rygelon",
 		},
-		[338022] = {
-			["school"] = 1,
+		[360528] = {
+			["school"] = 106,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Soldat recousu",
 		},
-		[361301] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[203796] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ruée sauvage",
+			["source"] = "Dreadlayz-Uldaman",
 		},
 		[352347] = {
 			["school"] = 2,
@@ -4360,14 +4355,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Création du docteur Sutur",
 		},
-		[363598] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[296080] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Rygelon",
+			["source"] = "Unité d'oppression aérienne CT-8",
 		},
 		[224127] = {
 			["school"] = 8,
@@ -4401,13 +4396,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gnomastoc TKC",
 		},
-		[298897] = {
-			["school"] = 8,
+		[361300] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Trixie Zap",
+			["source"] = "Prototype du renouveau",
 		},
 		[363088] = {
 			["school"] = 106,
@@ -4435,13 +4430,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maître du rail Fusétincelle",
 		},
-		[364114] = {
-			["school"] = 106,
+		[326263] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rygelon",
+			["source"] = "Tred'ova",
 		},
 		[371273] = {
 			["school"] = 106,
@@ -4471,86 +4465,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Création du docteur Sutur",
 		},
-		[16827] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Hati",
-		},
-		[360279] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Le Geôlier",
-		},
-		[361300] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Prototype du renouveau",
-		},
-		[299153] = {
+		[361301] = {
 			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Trixie Zap",
-		},
-		[362835] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Artificier Xy’mox",
-		},
-		[326263] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Tred'ova",
-		},
-		[298898] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Naeno Mégavroum",
-		},
-		[320637] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Chancros",
-		},
-		[361304] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Ruée sauvage",
-		},
-		[285344] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Le « Tabasseur de platine »",
 		},
 		[346980] = {
 			["school"] = 1,
@@ -4562,14 +4484,87 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Purificateur du caveau",
 		},
-		[360281] = {
-			["school"] = 32,
+		[298897] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Trixie Zap",
+		},
+		[299153] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Trixie Zap",
+		},
+		[364881] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Gardien vigilant",
+		},
+		[364114] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[16827] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Hati",
+		},
+		[320637] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Chancros",
+		},
+		[364373] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Renfort hyperluminique",
+		},
+		[323195] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
+			["source"] = "Oryphrione",
+		},
+		[360279] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
 			["source"] = "Le Geôlier",
+		},
+		[336752] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mandebrume",
 		},
 		[359770] = {
 			["school"] = 1,
@@ -4586,12 +4581,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rùan-Hyjal",
 		},
-		[362584] = {
-			["school"] = 106,
+		[363607] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Automa pourvoyeur",
+			["source"] = "Noyau de domination",
 		},
 		[334961] = {
 			["school"] = 32,
@@ -4616,13 +4613,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Totem de marée de soins",
 		},
-		[336752] = {
-			["school"] = 1,
+		[360281] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Mandebrume",
+			["source"] = "Le Geôlier",
 		},
 		[374859] = {
 			["school"] = 1,
@@ -4648,13 +4646,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zankhajah-Sargeras",
 		},
-		[360284] = {
+		[351077] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Kin’tessa",
+			["source"] = "Kri-Kael'thas",
 		},
 		[1776] = {
 			["school"] = 1,
@@ -4673,12 +4671,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anduin Wrynn",
 		},
-		[119611] = {
-			["school"] = 8,
+		[351080] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Àphx-Illidan",
+			["source"] = "So'leah",
 		},
 		[163390] = {
 			["school"] = 1,
@@ -4690,13 +4689,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Neesa Nox",
 		},
-		[353635] = {
-			["school"] = 64,
+		[161089] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "So'leah",
 		},
 		[361818] = {
 			["school"] = 32,
@@ -4713,27 +4710,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Halondrus",
 		},
-		[351077] = {
+		[360284] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Kri-Kael'thas",
-		},
-		[360287] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Kin’tessa",
 		},
-		[161089] = {
-			["school"] = 1,
+		[119611] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
+			["source"] = "Àphx-Illidan",
+		},
+		[353635] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "So'leah",
 		},
 		[362075] = {
 			["school"] = 32,
@@ -4766,13 +4764,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Chef d'escouade désavoué",
 		},
-		[326018] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[161091] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Larve gueule-épine",
+			["source"] = "Maître du rail Fusétincelle",
 		},
 		[201754] = {
 			["school"] = 1,
@@ -4781,13 +4780,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Chien du Magma",
 		},
-		[369502] = {
-			["school"] = 1,
+		[351088] = {
+			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Halondrus",
+			["source"] = "Relique de progéniteur",
 		},
 		[161090] = {
 			["school"] = 1,
@@ -4807,13 +4806,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mécacycle",
 		},
-		[351080] = {
-			["school"] = 64,
+		[360287] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "So'leah",
+			["source"] = "Kin’tessa",
 		},
 		[321669] = {
 			["school"] = 8,
@@ -4824,12 +4823,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Clone illusoire",
 		},
-		[258922] = {
-			["school"] = 4,
+		[364138] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Dreadlayz-Uldaman",
+			["source"] = "Le Geôlier",
 		},
 		[365147] = {
 			["school"] = 1,
@@ -4845,24 +4844,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kin’tessa",
 		},
-		[299164] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[160963] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mécacycle",
+			["source"] = "Boumeur grom’kar",
 		},
-		[161091] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[326018] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Maître du rail Fusétincelle",
+			["source"] = "Larve gueule-épine",
 		},
 		[351096] = {
 			["school"] = 64,
@@ -4879,30 +4874,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Halondrus",
 		},
-		[334970] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mueh'zala",
-		},
-		[364893] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Skolex",
-		},
-		[162500] = {
-			["school"] = 4,
+		[361568] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Maître du rail Fusétincelle",
+			["source"] = "Prototype du renouveau",
+		},
+		[359778] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Skolex",
+		},
+		[282801] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Le « Tabasseur de platine »",
 		},
 		[283565] = {
 			["school"] = 1,
@@ -4919,27 +4914,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gangregarde",
 		},
-		[366943] = {
-			["school"] = 106,
+		[292264] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Gardien vigilant",
+			["source"] = "Casseur Oméga",
 		},
-		[161220] = {
-			["school"] = 4,
+		[365150] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Canon d’assaut",
-		},
-		[351088] = {
-			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Relique de progéniteur",
+			["source"] = "Le Geôlier",
+		},
+		[360295] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Prototype de la guerre",
 		},
 		[369754] = {
 			["school"] = 1,
@@ -4968,12 +4966,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Le Geôlier",
 		},
-		[346741] = {
-			["school"] = 1,
+		[325258] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Maître de P.O.S.T.E.",
+			["source"] = "Mueh'zala",
 		},
 		[347249] = {
 			["school"] = 1,
@@ -4983,44 +4984,43 @@ EncounterDetailsDB = {
 			},
 			["source"] = "So'azmi",
 		},
-		[19801] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Välysra-Archimonde",
-		},
-		[364138] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Le Geôlier",
-		},
-		[351086] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[362850] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "So'leah",
+			["source"] = "Artificier Xy’mox",
 		},
-		[282801] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[258922] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Le « Tabasseur de platine »",
+			["source"] = "Dreadlayz-Uldaman",
 		},
-		[292264] = {
+		[7268] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Celltech-Archimonde",
+		},
+		[145109] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Casseur Oméga",
+			["source"] = "Collectia-Hyjal",
+		},
+		[366943] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Gardien vigilant",
 		},
 		[365153] = {
 			["school"] = 32,
@@ -5044,6 +5044,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Artificier Xy’mox",
 		},
+		[362347] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Prototype du devoir",
+		},
+		[348276] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Bras gauche",
+		},
+		[369502] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Halondrus",
+		},
 		[322450] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -5052,32 +5074,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Tred'ova",
-		},
-		[320655] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Chancros",
-		},
-		[360295] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Prototype de la guerre",
-		},
-		[361324] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Halondrus",
 		},
 		[320144] = {
 			["school"] = 1,
@@ -5105,12 +5101,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rùan-Hyjal",
 		},
-		[348276] = {
+		[320655] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Bras gauche",
+			["source"] = "Chancros",
 		},
 		[292267] = {
 			["school"] = 8,
@@ -5263,22 +5261,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Artificier Xy’mox",
 		},
-		[362347] = {
+		[361324] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Halondrus",
+		},
+		[346741] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Prototype du devoir",
-		},
-		[325258] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mueh'zala",
+			["source"] = "Maître de P.O.S.T.E.",
 		},
 		[303525] = {
 			["school"] = 8,
@@ -5304,29 +5301,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mal’Ganis",
 		},
-		[145109] = {
-			["school"] = 8,
+		[162500] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Collectia-Hyjal",
+			["source"] = "Maître du rail Fusétincelle",
 		},
-		[7268] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Celltech-Archimonde",
-		},
-		[362850] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[351086] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Artificier Xy’mox",
+			["source"] = "So'leah",
+		},
+		[19801] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Välysra-Archimonde",
 		},
 		[360303] = {
 			["school"] = 32,
@@ -5335,31 +5332,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kin’tessa",
 		},
-		[365150] = {
+		[161220] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Canon d’assaut",
+		},
+		[364893] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Le Geôlier",
-		},
-		[359778] = {
-			["school"] = 106,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Skolex",
 		},
-		[361568] = {
-			["school"] = 8,
+		[334970] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Prototype du renouveau",
+			["source"] = "Mueh'zala",
 		},
 		[360304] = {
 			["school"] = 32,
@@ -5407,12 +5402,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Relique de progéniteur",
 		},
-		[160963] = {
-			["school"] = 4,
+		[299164] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Boumeur grom’kar",
+			["source"] = "Mécacycle",
 		},
 		[363886] = {
 			["school"] = 32,
@@ -5422,14 +5420,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Le Geôlier",
 		},
-		[363607] = {
-			["school"] = 32,
+		[362584] = {
+			["school"] = 106,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Noyau de domination",
+			["source"] = "Automa pourvoyeur",
 		},
 		[362352] = {
 			["school"] = 1,
@@ -5448,12 +5444,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Le Geôlier",
 		},
-		[364373] = {
-			["school"] = 64,
+		[361304] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Renfort hyperluminique",
+			["source"] = "Ruée sauvage",
 		},
 		[359028] = {
 			["school"] = 1,
@@ -5463,15 +5462,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zo'gron",
 		},
-		[323195] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[285344] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Oryphrione",
+			["source"] = "Le « Tabasseur de platine »",
 		},
 		[162507] = {
 			["school"] = 1,
@@ -5481,21 +5477,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maître du rail Fusétincelle",
 		},
-		[364881] = {
-			["school"] = 1,
+		[362835] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Gardien vigilant",
-		},
-		[203796] = {
-			["school"] = 32,
-			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dreadlayz-Uldaman",
+			["source"] = "Artificier Xy’mox",
+		},
+		[298898] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Naeno Mégavroum",
 		},
 		[351101] = {
 			["school"] = 64,
@@ -5538,6 +5535,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tranchechair Nok'gar",
 		},
+		[320630] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ver putride",
+		},
 		[298124] = {
 			["school"] = 40,
 			["type"] = "DEBUFF",
@@ -5546,15 +5551,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Salcrass",
-		},
-		[366665] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
 		},
 		[365169] = {
 			["school"] = 1,
@@ -5757,14 +5753,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anduin Wrynn",
 		},
-		[360260] = {
-			["school"] = 8,
+		[11426] = {
+			["school"] = 16,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Nuage léthargique",
+			["source"] = "Lothrys",
 		},
 		[350086] = {
 			["school"] = 1,
@@ -5773,21 +5769,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Venza Mèchedor",
 		},
-		[161588] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[323943] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Seigneur du ciel Tovra",
+			["source"] = "Déva",
 		},
-		[346960] = {
-			["school"] = 2,
+		[283534] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hylbrande",
+			["source"] = "Magnéto-bras",
 		},
 		[363130] = {
 			["school"] = 1,
@@ -5799,14 +5794,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lihuvim",
 		},
-		[346959] = {
-			["school"] = 2,
+		[359235] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Tourelle de défense titanesque",
+			["source"] = "Halondrus",
 		},
 		[120] = {
 			["school"] = 16,
@@ -5816,14 +5812,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lothrys",
 		},
-		[163376] = {
-			["school"] = 8,
+		[361278] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Neesa Nox",
+			["source"] = "Prototype du devoir",
 		},
 		[55078] = {
 			["school"] = 32,
@@ -5832,12 +5828,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Arme runique",
 		},
-		[368950] = {
-			["school"] = 1,
+		[361789] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Halondrus",
+			["source"] = "Main de la destruction",
 		},
 		[369781] = {
 			["school"] = 1,
@@ -5877,12 +5874,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nitrogg Tour-de-Tonnerre",
 		},
-		[315496] = {
-			["school"] = 1,
+		[169129] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Rùan-Hyjal",
+			["source"] = "Explosion de fumées",
 		},
 		[164815] = {
 			["school"] = 8,
@@ -5948,12 +5946,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Makogg Braiselame",
 		},
-		[362805] = {
+		[322908] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Dausegne",
+			["source"] = "Déva",
 		},
 		[363681] = {
 			["school"] = 106,
@@ -6103,13 +6103,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vestige d’un roi déchu",
 		},
-		[349498] = {
-			["school"] = 32,
+		[364843] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Alcruux",
+			["source"] = "Gardien vigilant",
 		},
 		[168399] = {
 			["school"] = 8,
@@ -6173,20 +6174,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pustule écumante",
 		},
-		[359979] = {
+		[362025] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Skolex",
-		},
-		[291949] = {
-			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "K.U.-J.0.",
+			["source"] = "Halondrus",
+		},
+		[369697] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Embusqué cavepierre",
 		},
 		[369792] = {
 			["school"] = 1,
@@ -6198,22 +6198,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Eric « l'Agile »",
 		},
-		[361001] = {
-			["school"] = 106,
+		[2139] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Rondier vigilant",
+			["source"] = "Lothrys",
 		},
-		[359976] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[360999] = {
+			["school"] = 106,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Skolex",
+			["source"] = "Sentinelle préfabriquée",
 		},
 		[363399] = {
 			["school"] = 32,
@@ -6409,13 +6406,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lihuvim",
 		},
-		[364569] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[320580] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Effondrement de quasar",
+			["source"] = "Amarth",
 		},
 		[168148] = {
 			["school"] = 4,
@@ -6470,13 +6466,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "So'leah",
 		},
-		[362775] = {
-			["school"] = 48,
+		[217832] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Vestige d’un roi déchu",
+			["source"] = "Dreadlayz-Uldaman",
 		},
 		[364686] = {
 			["school"] = 8,
@@ -6495,22 +6492,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Déva",
 		},
-		[320830] = {
-			["school"] = 4,
+		[361750] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[360983] = {
+			["school"] = 32,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ecureuil-bombe mécanique",
-		},
-		[163740] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Ahri’ok Dugru",
+			["source"] = "Dausegne",
 		},
 		[365219] = {
 			["school"] = 1,
@@ -6565,13 +6559,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Collectia-Hyjal",
 		},
-		[352536] = {
-			["school"] = 40,
-			["type"] = "BUFF",
+		[320823] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Suinteux de Kevin",
+			["source"] = "Millificent Tempête-de-Mana",
 		},
 		[315585] = {
 			["school"] = 8,
@@ -6589,15 +6583,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "So'leah",
 		},
-		[363020] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[376319] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ame diabolique",
+			["source"] = "Chronoseigneur Déios",
 		},
 		[346877] = {
 			["school"] = 1,
@@ -6786,5 +6777,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Chronoseigneur Déios",
 		},
+	},
+	["emotes"] = {
+		{
+			["boss"] = "Chronoseigneur Déios",
+		}, -- [1]
+		{
+			["boss"] = "Pyron",
+		}, -- [2]
+		{
+			["boss"] = "Sentinelle Talondras",
+		}, -- [3]
 	},
 }

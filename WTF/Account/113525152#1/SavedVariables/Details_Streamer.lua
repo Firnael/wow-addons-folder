@@ -1,11 +1,13 @@
 
 Details_StreamerDB = {
 	["characters"] = {
+		["Havok - La Croisade écarlate"] = "Croclardon - Ysondre",
 		["Lézarbizar - Ysondre"] = "Croclardon - Ysondre",
 		["Kikouyou - Ysondre"] = "Croclardon - Ysondre",
+		["Kisskouille - Ysondre"] = "Croclardon - Ysondre",
 		["Croclardon - Ysondre"] = "Croclardon - Ysondre",
 		["Témaléflam - Ysondre"] = "Croclardon - Ysondre",
-		["Kisskouille - Ysondre"] = "Croclardon - Ysondre",
+		["Firnaël - La Croisade écarlate"] = "Croclardon - Ysondre",
 	},
 	["profiles"] = {
 		["Croclardon - Ysondre"] = {
@@ -19,28 +21,31 @@ Details_StreamerDB = {
 				0.5, -- [4]
 			},
 			["scale"] = 1,
-			["arrow_anchor_y"] = 0,
+			["main_frame_size"] = {
+				299.9999694824219, -- [1]
+				500.0000610351563, -- [2]
+			},
 			["minimap"] = {
 				["minimapPos"] = 70.38352438093735,
 				["radius"] = 160,
 				["hide"] = false,
 			},
-			["row_height"] = 20,
+			["point"] = "CENTER",
 			["arrow_anchor_x"] = 0,
+			["y"] = 0.0003509521484375,
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
 			["font_color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["row_texture"] = "Details Serenity",
-			["square_grow_direction"] = "right",
-			["point"] = "CENTER",
-			["main_frame_strata"] = "LOW",
+			["row_height"] = 20,
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = 6.103515625e-05,
+			["use_spark"] = true,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -48,35 +53,32 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
 				["scale"] = 1,
 				["font_shadow"] = true,
-				["y"] = 9.1552734375e-05,
-				["x"] = 6.103515625e-05,
-				["size"] = 32,
+				["y"] = 0.000335693359375,
+				["x"] = 0.00042724609375,
 				["update_speed"] = 0.05,
+				["size"] = 32,
 				["attribute_type"] = 1,
 			},
 			["x"] = 6.103515625e-05,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
+			["arrow_anchor_y"] = 0,
 			["font_size"] = 10,
-			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
-			["main_frame_size"] = {
-				299.9999694824219, -- [1]
-				500.0000610351563, -- [2]
-			},
+			["author"] = "Details! Team",
 		},
 	},
 }

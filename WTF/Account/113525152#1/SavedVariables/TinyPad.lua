@@ -1,7 +1,7 @@
 
 TinyPadSettings = {
 	["FontSize"] = 2,
-	["XPos"] = 1823.83349609375,
+	["XPos"] = 924.0003662109375,
 	["PinBookmarks"] = false,
 	["FontFamily"] = 1,
 	["SharePosition"] = false,
@@ -9,20 +9,20 @@ TinyPadSettings = {
 	["OpenOnLogin"] = false,
 	["LargerScale"] = false,
 	["HideMoreTooltips"] = false,
-	["Width"] = 342.9999389648438,
-	["AllowCtrlKeys"] = false,
+	["StartOnPage1"] = false,
+	["Width"] = 400.0002746582031,
+	["EditorCtrlKeys"] = true,
 	["Transparency"] = false,
 	["ShowMinimapButton"] = false,
-	["Lock"] = false,
-	["Height"] = 483.9999694824219,
-	["YPos"] = 306.16650390625,
 	["NoFade"] = false,
-	["StartOnPage1"] = false,
+	["Height"] = 399.9999694824219,
+	["YPos"] = 640.3333740234375,
+	["Lock"] = false,
+	["AllowCtrlKeys"] = false,
 }
 TinyPadPages = {
-	"", -- [1]
-	"Diurna\n\n- Immune tant qu'on casse pas les oeufs\n- pour casser les oeufs : besoin du baton\n  - elle va le planter dans le sol, il faut 2 gars pour aller à côté\n  - ils vont récupéré un extra button\n  - lorsqu'ils l'utilisent, le baton tire un laser sur eux\n  - il faut kite le laser dans les oeufs\n\n- les tanks\n  - un qui tank le boss, un qui tank les adds\n  - pas besoin de swap en P1\n  - les Saccage-terre mettent un debuff armure donc gaffe\n  - ils vont un cone qui stun aussi, faut dodge\n  - en P2, il faudra swap car elle pose un gros debuff de heal\n", -- [2]
-	"Raszageth\nBL en P3\n\n\nP1:\n\n- les énormes cercles, on les pose sur le bord\n- ils vont permettre de pas tomber quand le boss va nous pousser\n- attention au souffle ça OS\n- la nova il faut juste la traverser (pensez Elisandre au Palais SN)\n\nInter 1:\n\n- on split le groupe en 2 équitablement\n- faut juste péter des adds\n- attention le boss crache en ligne (pensez HoV), ça OS\n\nP2 :\n\n- gros CD de heal à 100 d'énergie, faut enculer son shield\n  - on va avoir l'affix des M+\n  - il faut se pack avec ses potes, +200% de DPS / heal\n- le reste c'est la P1\n\nInter 2 :\n\n- faut enculer le gros add\n  - faut encore + enculer les petits, s'ils reach le gros on est dans la sauce\n\nP3 : \n\n- C'est une course contre la montre\n- de moins en moins de place, ON BL\n- y'a un tank swap (40sec le debuff)\n", -- [3]
-	"Crafts :\n\nSorcelame de la fournaise primordiale\n|cff0070dd|Hitem:189541::::::::70:105:::::::::|h[Alliage en fusion primordial |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r\n\nAnneau :\n|cffffffff|Hitem:192834::::::::70:105:::::::::|h[Fermoir chatoyant |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r\n|cff0070dd|Hitem:192859::::::::70:105:::::::::|h[Ysémeraude |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r\n\n\nBottes\n\n2x |cff1eff00|Hitem:193251::::::::70:105:::::::::|h[Fourrure cristalépine]|h|r\n5x |cff0070dd|Hitem:193245::::::::70:105:::::::::|h[Écailles morsure-de-givre |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r\n60x |cffffffff|Hitem:193211::::::::70:105:::::::::|h[Cuir résistant |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r\n\nCeinture\n4x |cff1eff00|Hitem:193255::::::::70:105:::::::::|h[Corne de vorquin en parfait état]|h|r\n13x |cff0070dd|Hitem:193242::::::::70:105:::::::::|h[Écailles brilleterres |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r\n150x |cffffffff|Hitem:193208::::::::70:105:::::::::|h[Cuir résistant |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r\n\nEpaules\n4x |cff1eff00|Hitem:193258::::::::70:105:::::::::|h[Peau imprégnée de feu]|h|r\n13x \n150x |cffffffff|Hitem:193208::::::::70:105:::::::::|h[Cuir résistant |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r\n\n|cff0070dd|Hitem:193228::::::::70:105:::::::::|h[Peau carcan-de-pierre |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r\n\n|cffa335ee|Hitem:193406::::::::70:105:::::::::|h[Protège-épaules liés par la vie]|h|r\n\n\n\n\n|cff0070dd|Hitem:192861::::::::70:105:::::::::|h[Ysémeraude |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r|cffffffff|Hitem:192834::::::::70:105:::::::::|h[Fermoir chatoyant |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r", -- [4]
-	"/script SetRaidTarget(“target”, 8);\n\n1    Star\n2    Circle\n3    Diamond\n4    Triangle\n5    Moon\n6    Square\n7    Cross (X)\n8    Skull", -- [5]
+	"Addons que j'ai viré / à re-dl\nTargeted Spells\n", -- [1]
+	"Crafts :\n\n", -- [2]
+	"/script SetRaidTarget(“target”, 8);\n\n1    Star\n2    Circle\n3    Diamond\n4    Triangle\n5    Moon\n6    Square\n7    Cross (X)\n8    Skull", -- [3]
+	"Manoir: 23\nDHT : 23\nFlore : 23\nCime : 23\nTrône : 23\nRepos : 24\nBRH : 24\nAD : 24\n", -- [4]
 }

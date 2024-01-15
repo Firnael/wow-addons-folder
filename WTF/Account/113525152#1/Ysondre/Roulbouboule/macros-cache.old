@@ -1,6 +1,38 @@
+VER 3 0100000000000010 "ChiJi+Trinket" "877514"
+#showtooltip Invocation de Chi Ji, la Grue Rouge
+/use 13
+/cast Invocation de Chi Ji, la Grue Rouge
+END
+VER 3 0100000000000012 "Leg Sweep cancel" "134400"
+#showtooltip
+/cancelcast
+/cast Balayement de jambe
+END
+VER 3 010000000000000C "Mouseover trkt" "1360762"
+#showtooltip
+/use [@mouseover,help, nodead][@target] 14
+END
 VER 3 0100000000000004 "Paralysis" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover] Paralysie
+/cast [@mouseover,help, nodead][@target] Paralysie
+END
+VER 3 010000000000000B "RoP Cursor" "134400"
+#showtooltip
+/cast [@cursor] Anneau de paix
+END
+VER 3 010000000000000F "Roulade shiny" "134400"
+#showtooltip Roulade
+/use Babiole prismatique
+/cast Roulade
+END
+VER 3 010000000000000E "Sheilun+Trinket" "1242282"
+#showtooltip Don de Sheilun
+/use 13
+/cast Don de Sheilun
+END
+VER 3 010000000000000D "Spin to win" "134400"
+#showtooltip
+/cast !Coup tournoyant de la grue
 END
 VER 3 0100000000000009 "Statue" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -15,9 +47,10 @@ VER 3 0100000000000007 "Taunt Statue" "2061352"
 /cast Persiflage
 /targetlasttarget
 END
-VER 3 010000000000000B "Tiger Lust" "134400"
+VER 3 0100000000000011 "ToD cancel" "134400"
 #showtooltip
-/cast [@mouseover][] Soif du tigre
+/cancelcast
+/cast Toucher mortel
 END
 VER 3 0100000000000006 "Trinket 14" "INV_MISC_QUESTIONMARK"
 #showtooltip Tempête, Terre et Feu

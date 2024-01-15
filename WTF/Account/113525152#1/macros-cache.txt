@@ -1,23 +1,15 @@
+VER 3 0000000000000055 "AutoPotion" "INV_Misc_QuestionMark"
+#showtooltip 
+/castsequence reset=combat Extraction du mal, item:207022
+END
 VER 3 0000000000000010 "Details!" "463829"
 /details toggle
-END
-VER 3 0000000000000044 "Dominos" "133220"
-/dominos
-END
-VER 3 0000000000000039 "DoS @cursor" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@cursor] Porte des ombres
 END
 VER 3 0000000000000051 "Drink + Prowl" "134400"
 #showtooltip Bave de Dragon délicieuse
 /cast [nostance:2] Forme de félin
 /use Bave de Dragon délicieuse
 /cast !Rôder
-END
-VER 3 000000000000004C "Ecorce + Bonbon" "134400"
-#showtooltip Ecorce
-/use Pierre de soins
-/cast Ecorce
 END
 VER 3 0000000000000048 "Extra Button" "897131"
 /click ExtraActionButton1
@@ -54,13 +46,16 @@ END
 VER 3 000000000000004D "MDT" "132177"
 /mdt
 END
+VER 3 0000000000000056 "Nameplates" "237444"
+/run C_NamePlate.SetNamePlateFriendlySize(50, 30)
+END
 VER 3 000000000000001B "Nitroboost" "537468"
 /use 6
 END
 VER 3 0000000000000035 "PdF :)" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /run PlaySoundFile(634290)
-/use Pierre de foyer de fêtard de la fête des Brasseurs
+/use Pierre de foyer
 END
 VER 3 0000000000000050 "Plater" "961491"
 /plater
@@ -82,6 +77,9 @@ VER 3 000000000000002B "Smite" "135924"
 END
 VER 3 000000000000003D "Stance ?" "1029587"
 /run local x = GetShapeshiftForm() print("you are in stance: ",x)
+END
+VER 3 0000000000000053 "Stop talking" "132333"
+/bq blacklist (currentzone || currentsubzone)
 END
 VER 3 0000000000000049 "Stun / Roar" "134400"
 #showtooltip
@@ -106,10 +104,6 @@ VER 3 0000000000000032 "TEST SOUND" "132340"
 END
 VER 3 0000000000000024 "Tinypad" "237162"
 /tinypad
-END
-VER 3 000000000000004A "Trinket (14)" "134400"
-#showtooltip
-/use 14
 END
 VER 3 000000000000003F "Trinket (cursor)" "1028994"
 #showtooltip

@@ -7,6 +7,10 @@ VER 3 010000000000001A "Cancelform" "1029587"
 /cancelform
 END
 VER 3 010000000000000B "Charge / Renouv" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:2/2] Renouveau
+/cast [stance:1/2,@mouseover,harm,nodead][] Charge sauvage
+/cast [noform, @mouseover, help, nodead][] Charge sauvage 
 END
 VER 3 010000000000001F "Chat" "INV_MISC_QUESTIONMARK"
 #showtooltip

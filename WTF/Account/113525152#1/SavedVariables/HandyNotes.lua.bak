@@ -1,44 +1,65 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
+		["Havok - La Croisade écarlate"] = "Havok - La Croisade écarlate",
 		["Croclardon - Ysondre"] = "Croclardon - Ysondre",
 		["Jesuisgentil - Ysondre"] = "Jesuisgentil - Ysondre",
 		["Laitmeumeu - Ysondre"] = "Laitmeumeu - Ysondre",
-		["Témaléflam - Ysondre"] = "Témaléflam - Ysondre",
-		["Kikouyou - Ysondre"] = "Kikouyou - Ysondre",
-		["Colèrecolère - Ysondre"] = "Colèrecolère - Ysondre",
-		["Tyrance - Ysondre"] = "Tyrance - Ysondre",
-		["Lézarbizar - Ysondre"] = "Lézarbizar - Ysondre",
-		["Kisskouille - Ysondre"] = "Kisskouille - Ysondre",
+		["Firnaël - La Croisade écarlate"] = "Firnaël - La Croisade écarlate",
 		["Coloss - Ysondre"] = "Coloss - Ysondre",
+		["Kikouyou - Ysondre"] = "Kikouyou - Ysondre",
+		["Témaléflam - Ysondre"] = "Témaléflam - Ysondre",
+		["Tyrance - Ysondre"] = "Tyrance - Ysondre",
+		["Kisskouille - Ysondre"] = "Kisskouille - Ysondre",
+		["Lézarbizar - Ysondre"] = "Lézarbizar - Ysondre",
+		["Colèrecolère - Ysondre"] = "Colèrecolère - Ysondre",
 		["Roulbouboule - Ysondre"] = "Roulbouboule - Ysondre",
 	},
 	["profiles"] = {
+		["Havok - La Croisade écarlate"] = {
+		},
 		["Croclardon - Ysondre"] = {
 		},
 		["Jesuisgentil - Ysondre"] = {
 		},
 		["Laitmeumeu - Ysondre"] = {
 		},
-		["Témaléflam - Ysondre"] = {
+		["Firnaël - La Croisade écarlate"] = {
+		},
+		["Coloss - Ysondre"] = {
 		},
 		["Kikouyou - Ysondre"] = {
 		},
-		["Colèrecolère - Ysondre"] = {
+		["Témaléflam - Ysondre"] = {
 		},
 		["Tyrance - Ysondre"] = {
 		},
-		["Lézarbizar - Ysondre"] = {
-		},
 		["Kisskouille - Ysondre"] = {
 		},
-		["Coloss - Ysondre"] = {
+		["Lézarbizar - Ysondre"] = {
+		},
+		["Colèrecolère - Ysondre"] = {
 		},
 		["Roulbouboule - Ysondre"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Havok - La Croisade écarlate"] = "Havok - La Croisade écarlate",
+		["Croclardon - Ysondre"] = "Croclardon - Ysondre",
+		["Jesuisgentil - Ysondre"] = "Jesuisgentil - Ysondre",
+		["Laitmeumeu - Ysondre"] = "Laitmeumeu - Ysondre",
+		["Firnaël - La Croisade écarlate"] = "Firnaël - La Croisade écarlate",
+		["Coloss - Ysondre"] = "Coloss - Ysondre",
+		["Kikouyou - Ysondre"] = "Kikouyou - Ysondre",
+		["Témaléflam - Ysondre"] = "Témaléflam - Ysondre",
+		["Tyrance - Ysondre"] = "Tyrance - Ysondre",
+		["Kisskouille - Ysondre"] = "Kisskouille - Ysondre",
+		["Lézarbizar - Ysondre"] = "Lézarbizar - Ysondre",
+		["Colèrecolère - Ysondre"] = "Colèrecolère - Ysondre",
+		["Roulbouboule - Ysondre"] = "Roulbouboule - Ysondre",
+	},
 	["global"] = {
 		[2112] = {
 			[43165965] = {
@@ -57,39 +78,30 @@ HandyNotes_HandyNotesDB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Croclardon - Ysondre"] = "Croclardon - Ysondre",
-		["Jesuisgentil - Ysondre"] = "Jesuisgentil - Ysondre",
-		["Laitmeumeu - Ysondre"] = "Laitmeumeu - Ysondre",
-		["Témaléflam - Ysondre"] = "Témaléflam - Ysondre",
-		["Kikouyou - Ysondre"] = "Kikouyou - Ysondre",
-		["Colèrecolère - Ysondre"] = "Colèrecolère - Ysondre",
-		["Tyrance - Ysondre"] = "Tyrance - Ysondre",
-		["Lézarbizar - Ysondre"] = "Lézarbizar - Ysondre",
-		["Kisskouille - Ysondre"] = "Kisskouille - Ysondre",
-		["Coloss - Ysondre"] = "Coloss - Ysondre",
-		["Roulbouboule - Ysondre"] = "Roulbouboule - Ysondre",
-	},
 	["profiles"] = {
+		["Havok - La Croisade écarlate"] = {
+		},
 		["Croclardon - Ysondre"] = {
 		},
 		["Jesuisgentil - Ysondre"] = {
 		},
 		["Laitmeumeu - Ysondre"] = {
 		},
-		["Témaléflam - Ysondre"] = {
+		["Firnaël - La Croisade écarlate"] = {
+		},
+		["Coloss - Ysondre"] = {
 		},
 		["Kikouyou - Ysondre"] = {
 		},
-		["Colèrecolère - Ysondre"] = {
+		["Témaléflam - Ysondre"] = {
 		},
 		["Tyrance - Ysondre"] = {
 		},
-		["Lézarbizar - Ysondre"] = {
-		},
 		["Kisskouille - Ysondre"] = {
 		},
-		["Coloss - Ysondre"] = {
+		["Lézarbizar - Ysondre"] = {
+		},
+		["Colèrecolère - Ysondre"] = {
 		},
 		["Roulbouboule - Ysondre"] = {
 		},

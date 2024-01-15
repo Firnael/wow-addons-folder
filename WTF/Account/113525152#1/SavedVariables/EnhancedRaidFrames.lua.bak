@@ -4,21 +4,26 @@ EnhancedRaidFramesDB = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
-	["global"] = {
-		["DB_VERSION"] = 2,
-	},
 	["profileKeys"] = {
+		["Havok - La Croisade écarlate"] = "Havok - La Croisade écarlate",
 		["Croclardon - Ysondre"] = "Croclardon - Ysondre",
 		["Jesuisgentil - Ysondre"] = "Jesuisgentil - Ysondre",
 		["Laitmeumeu - Ysondre"] = "Laitmeumeu - Ysondre",
 		["Kikouyou - Ysondre"] = "Kikouyou - Ysondre",
+		["Roulbouboule - Ysondre"] = "Roulbouboule - Ysondre",
 		["Tyrance - Ysondre"] = "Tyrance - Ysondre",
+		["Coloss - Ysondre"] = "Coloss - Ysondre",
 		["Témaléflam - Ysondre"] = "Témaléflam - Ysondre",
 		["Colèrecolère - Ysondre"] = "Colèrecolère - Ysondre",
-		["Coloss - Ysondre"] = "Coloss - Ysondre",
-		["Roulbouboule - Ysondre"] = "Roulbouboule - Ysondre",
+		["Firnaël - La Croisade écarlate"] = "Firnaël - La Croisade écarlate",
+	},
+	["global"] = {
+		["DB_VERSION"] = 2,
 	},
 	["profiles"] = {
+		["Havok - La Croisade écarlate"] = {
+			["DB_VERSION"] = 2.2,
+		},
 		["Croclardon - Ysondre"] = {
 		},
 		["Jesuisgentil - Ysondre"] = {
@@ -27,15 +32,18 @@ EnhancedRaidFramesDB = {
 		},
 		["Kikouyou - Ysondre"] = {
 		},
+		["Roulbouboule - Ysondre"] = {
+		},
 		["Tyrance - Ysondre"] = {
+		},
+		["Coloss - Ysondre"] = {
 		},
 		["Témaléflam - Ysondre"] = {
 		},
 		["Colèrecolère - Ysondre"] = {
 		},
-		["Coloss - Ysondre"] = {
-		},
-		["Roulbouboule - Ysondre"] = {
+		["Firnaël - La Croisade écarlate"] = {
+			["DB_VERSION"] = 2.2,
 		},
 	},
 }

@@ -1,8 +1,11 @@
 
 ElWigoDB = {
 	["profileKeys"] = {
-		["Laitmeumeu - Ysondre"] = "Default",
+		["Croclardon - Ysondre"] = "Default",
 		["Jesuisgentil - Ysondre"] = "Default",
+		["Témaléflam - Ysondre"] = "Default",
+		["Laitmeumeu - Ysondre"] = "Default",
+		["Roulbouboule - Ysondre"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

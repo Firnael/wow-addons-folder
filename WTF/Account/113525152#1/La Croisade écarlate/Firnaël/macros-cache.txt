@@ -1,0 +1,18 @@
+VER 3 0100000000000004 "CV + VS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Courroux vengeur
+/cast Vengeur sacré
+END
+VER 3 0100000000000006 "Epuration" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod, target=target] Epuration
+/targetlasttarget
+END
+VER 3 0100000000000007 "Gemmes" "INV_ENCHANT_SHARDGLIMMERINGLARGE"
+Méta : Diamant primordial indomptable (+324 Endurance et chance quand touché d’obtenir une réduction de 20% des dégâts physiques subis) ou Diamant primordial austère (+324 Endu. +2 % à la valure d'armure des objets) si vous n'avez pas accès à le métag
+END
+VER 3 0100000000000005 "Prisme sacré" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod, target=self] Prisme sacré
+/targetenemy [noharm]
+END

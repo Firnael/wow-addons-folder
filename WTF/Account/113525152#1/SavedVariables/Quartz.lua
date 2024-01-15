@@ -13,14 +13,48 @@ Quartz3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["y"] = 235.0000457763672,
-					["x"] = -563.3331298828125,
+					["font"] = "Accidental Presidency",
 					["point"] = "BOTTOM",
+					["texture"] = "Clean",
+					["x"] = -563.3331298828125,
+				},
+			},
+		},
+		["Range"] = {
+		},
+		["Mirror"] = {
+		},
+		["EnemyCasts"] = {
+		},
+		["GCD"] = {
+		},
+		["Focus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["y"] = -179.3327178955078,
+					["x"] = 406.6665649414063,
+					["point"] = "CENTER",
 					["texture"] = "Clean",
 					["font"] = "Accidental Presidency",
 				},
 			},
 		},
-		["Range"] = {
+		["Target"] = {
+			["profiles"] = {
+				["Default"] = {
+					["h"] = 20,
+					["w"] = 180,
+					["y"] = -242.4994964599609,
+					["font"] = "Accidental Presidency",
+					["point"] = "CENTER",
+					["border"] = "None",
+					["texture"] = "Details Flat",
+					["noInterruptShield"] = false,
+					["x"] = 245.8334350585938,
+				},
+			},
+		},
+		["Interrupt"] = {
 		},
 		["Player"] = {
 			["profiles"] = {
@@ -37,39 +71,6 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
-		["GCD"] = {
-		},
-		["Focus"] = {
-			["profiles"] = {
-				["Default"] = {
-					["y"] = 34.833251953125,
-					["font"] = "Accidental Presidency",
-					["point"] = "CENTER",
-					["texture"] = "Clean",
-					["x"] = -9.16680908203125,
-				},
-			},
-		},
-		["Target"] = {
-			["profiles"] = {
-				["Default"] = {
-					["h"] = 24,
-					["w"] = 250,
-					["y"] = -230,
-					["x"] = 320,
-					["point"] = "CENTER",
-					["border"] = "None",
-					["texture"] = "Clean",
-					["font"] = "Accidental Presidency",
-				},
-			},
-		},
-		["Interrupt"] = {
-		},
-		["Mirror"] = {
-		},
 		["Latency"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -80,17 +81,19 @@ Quartz3DB = {
 		},
 	},
 	["profileKeys"] = {
+		["Havok - La Croisade écarlate"] = "Default",
 		["Croclardon - Ysondre"] = "Default",
 		["Jesuisgentil - Ysondre"] = "Default",
 		["Laitmeumeu - Ysondre"] = "Default",
-		["Témaléflam - Ysondre"] = "Default",
+		["Roulbouboule - Ysondre"] = "Default",
+		["Coloss - Ysondre"] = "Default",
 		["Kikouyou - Ysondre"] = "Default",
-		["Colèrecolère - Ysondre"] = "Default",
+		["Kisskouille - Ysondre"] = "Default",
 		["Tyrance - Ysondre"] = "Default",
 		["Lézarbizar - Ysondre"] = "Default",
-		["Kisskouille - Ysondre"] = "Default",
-		["Coloss - Ysondre"] = "Default",
-		["Roulbouboule - Ysondre"] = "Default",
+		["Témaléflam - Ysondre"] = "Default",
+		["Colèrecolère - Ysondre"] = "Default",
+		["Firnaël - La Croisade écarlate"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -1,21 +1,23 @@
 
 OmniCCDB = {
-	["global"] = {
-		["dbVersion"] = 6,
-		["addonVersion"] = "10.1.2",
-	},
 	["profileKeys"] = {
+		["Havok - La Croisade écarlate"] = "Défaut",
 		["Croclardon - Ysondre"] = "Défaut",
 		["Jesuisgentil - Ysondre"] = "Défaut",
 		["Laitmeumeu - Ysondre"] = "Défaut",
-		["Témaléflam - Ysondre"] = "Défaut",
-		["Kikouyou - Ysondre"] = "Défaut",
-		["Coloss - Ysondre"] = "Défaut",
-		["Tyrance - Ysondre"] = "Défaut",
-		["Kisskouille - Ysondre"] = "Défaut",
-		["Lézarbizar - Ysondre"] = "Défaut",
+		["Firnaël - La Croisade écarlate"] = "Défaut",
 		["Colèrecolère - Ysondre"] = "Défaut",
+		["Kikouyou - Ysondre"] = "Défaut",
+		["Témaléflam - Ysondre"] = "Défaut",
+		["Tyrance - Ysondre"] = "Défaut",
+		["Lézarbizar - Ysondre"] = "Défaut",
+		["Kisskouille - Ysondre"] = "Défaut",
+		["Coloss - Ysondre"] = "Défaut",
 		["Roulbouboule - Ysondre"] = "Défaut",
+	},
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.2.1",
 	},
 	["profiles"] = {
 		["Défaut"] = {
@@ -72,9 +74,9 @@ OmniCCDB = {
 			["themes"] = {
 				["Plater Nameplates Theme"] = {
 					["textStyles"] = {
-						["seconds"] = {
-						},
 						["soon"] = {
+						},
+						["seconds"] = {
 						},
 						["minutes"] = {
 						},
@@ -83,21 +85,21 @@ OmniCCDB = {
 				},
 				["Défaut"] = {
 					["textStyles"] = {
-						["seconds"] = {
-						},
 						["soon"] = {
+						},
+						["seconds"] = {
 						},
 						["minutes"] = {
 						},
 					},
-					["fontFace"] = "Interface\\Addons\\Details\\fonts\\Accidental Presidency.ttf",
 					["fontSize"] = 22,
+					["fontFace"] = "Interface\\Addons\\Details\\fonts\\Accidental Presidency.ttf",
 				},
 				["No CD in raidframes"] = {
 					["textStyles"] = {
-						["seconds"] = {
-						},
 						["minutes"] = {
+						},
+						["seconds"] = {
 						},
 						["soon"] = {
 						},

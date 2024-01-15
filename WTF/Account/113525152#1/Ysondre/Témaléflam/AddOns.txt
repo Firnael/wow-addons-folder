@@ -10,3 +10,16 @@ LittleWigs: enabled
 LittleWigs_Legion: enabled
 QE-DungeonTips: disabled
 BigWigs_DragonIsles: enabled
+Leatrix_Plus: enabled
+BigWigs: enabled
+BigWigs_Aberrus: disabled
+BigWigs_VaultOfTheIncarnates: disabled
+Details_ExplosiveOrbs: disabled
+LittleWigs_BurningCrusade: disabled
+LittleWigs_Cataclysm: enabled
+LittleWigs_BattleForAzeroth: enabled
+LittleWigs_WarlordsOfDraenor: enabled
+BigWigs_Amirdrassil: enabled
+OmniCD: enabled
+WeakAuras: enabled
+EnhancedRaidFrames: disabled

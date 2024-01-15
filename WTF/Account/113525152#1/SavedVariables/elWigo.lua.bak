@@ -1,8 +1,11 @@
 
 ElWigoDB = {
 	["profileKeys"] = {
-		["Laitmeumeu - Ysondre"] = "Default",
+		["Croclardon - Ysondre"] = "Default",
 		["Jesuisgentil - Ysondre"] = "Default",
+		["Laitmeumeu - Ysondre"] = "Default",
+		["Témaléflam - Ysondre"] = "Default",
+		["Roulbouboule - Ysondre"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -62,20 +65,20 @@ ElWigoDB = {
 				["Orbes arcaniques"] = 386544,
 				["Crachat de flammes"] = 381602,
 				["Engagement !"] = 377182,
-				["Frappe lacérante"] = 375937,
-				["Préparation"] = "warmup",
 				["Surcharge de givre"] = 373680,
-				["Coup de bec sauvage"] = 376997,
+				["Préparation"] = "warmup",
 				["Repoussement"] = 386547,
+				["Coup de bec sauvage"] = 376997,
 				["Frappe conductrice"] = 376827,
+				["Éveil des Dragonnets"] = 373046,
 				["Hurlement assourdissant"] = 377004,
 				["Écorce écrasante"] = 388544,
-				["Éveil des Dragonnets"] = 373046,
+				["Surtension"] = 391977,
 				["Abondance"] = 396721,
 				["But du brasier incandescent"] = 389481,
-				["Surtension"] = 391977,
-				["Bourrasque surpuissante"] = 377034,
 				["Soulèvement"] = 375943,
+				["Bourrasque surpuissante"] = 377034,
+				["Frappe lacérante"] = 375937,
 				["Lance statique"] = 376864,
 				["Frappement de la tempête"] = 381512,
 				["Tempête de feu"] = 376448,
@@ -116,11 +119,9 @@ ElWigoDB = {
 						["width"] = 50,
 					},
 				},
-				[2565] = {
+				[2637] = {
 				},
 				[2623] = {
-				},
-				[2637] = {
 				},
 				[2564] = {
 					[376997] = {
@@ -140,6 +141,8 @@ ElWigoDB = {
 						["width"] = 50,
 						["durationFontSize"] = 25,
 					},
+				},
+				[2565] = {
 				},
 				[2580] = {
 					[376892] = {

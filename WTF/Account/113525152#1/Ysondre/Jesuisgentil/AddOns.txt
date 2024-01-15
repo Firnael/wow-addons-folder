@@ -52,7 +52,7 @@ Blizzard_CompactRaidFrames: enabled
 QE-DungeonTips: disabled
 NoAutoClose: disabled
 GladiusEx: disabled
-LittleWigs_BattleForAzeroth: disabled
+LittleWigs_BattleForAzeroth: enabled
 LittleWigs_Cataclysm: enabled
 LittleWigs_Classic: disabled
 LittleWigs_WrathOfTheLichKing: disabled
@@ -62,4 +62,11 @@ LittleWigs_WarlordsOfDraenor: enabled
 LittleWigs_MistsOfPandaria: enabled
 BigWigs_DragonIsles: enabled
 CursorTrail: disabled
-BigWigs_Aberrus: enabled
+BigWigs_Aberrus: disabled
+Leatrix_Plus: enabled
+BigWigs_VaultOfTheIncarnates: disabled
+Details_ExplosiveOrbs: disabled
+BigWigs_Amirdrassil: enabled
+OmniCD: enabled
+WeakAuras: enabled
+EnhancedRaidFrames: disabled

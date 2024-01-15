@@ -1,15 +1,811 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			["boss"] = "Tsunami primordial",
-		}, -- [1]
-		{
-			["boss"] = "Khajin l’Inflexible",
-		}, -- [2]
-		{
-			["boss"] = "Goliath gobeur",
-		}, -- [3]
+	["chartData"] = {
+		[708] = {
+		},
+		[710] = {
+			["Raid Damage Done"] = {
+				25512, -- [1]
+				24386, -- [2]
+				0, -- [3]
+				37468, -- [4]
+				956, -- [5]
+				87636, -- [6]
+				35931, -- [7]
+				32290, -- [8]
+				0, -- [9]
+				49962, -- [10]
+				31041, -- [11]
+				9938, -- [12]
+				15446, -- [13]
+				0, -- [14]
+				["max_value"] = 87636,
+				["__time"] = 1704550535,
+			},
+		},
+		[712] = {
+			["Raid Damage Done"] = {
+				12356, -- [1]
+				21827, -- [2]
+				72030, -- [3]
+				34232, -- [4]
+				21827, -- [5]
+				50203, -- [6]
+				104381, -- [7]
+				0, -- [8]
+				44751, -- [9]
+				47041, -- [10]
+				31265, -- [11]
+				0, -- [12]
+				68179, -- [13]
+				49511, -- [14]
+				["max_value"] = 104381,
+				["__time"] = 1704550577,
+			},
+		},
+		[714] = {
+			["Raid Damage Done"] = {
+				38781, -- [1]
+				0, -- [2]
+				18980, -- [3]
+				36822, -- [4]
+				17858, -- [5]
+				0, -- [6]
+				51423, -- [7]
+				0, -- [8]
+				304431, -- [9]
+				0, -- [10]
+				0, -- [11]
+				243241, -- [12]
+				0, -- [13]
+				100613, -- [14]
+				23922, -- [15]
+				["max_value"] = 304431,
+				["__time"] = 1704550648,
+			},
+		},
+		[716] = {
+			["Raid Damage Done"] = {
+				12420, -- [1]
+				21395, -- [2]
+				66509, -- [3]
+				28337, -- [4]
+				17657, -- [5]
+				42570, -- [6]
+				0, -- [7]
+				["max_value"] = 66509,
+				["__time"] = 1704550758,
+			},
+		},
+		[718] = {
+			["Raid Damage Done"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				24810, -- [9]
+				0, -- [10]
+				57275, -- [11]
+				0, -- [12]
+				161760, -- [13]
+				20354, -- [14]
+				67708, -- [15]
+				33859, -- [16]
+				11534, -- [17]
+				32864, -- [18]
+				44817, -- [19]
+				10125, -- [20]
+				43788, -- [21]
+				17834, -- [22]
+				0, -- [23]
+				0, -- [24]
+				0, -- [25]
+				0, -- [26]
+				0, -- [27]
+				0, -- [28]
+				0, -- [29]
+				0, -- [30]
+				0, -- [31]
+				0, -- [32]
+				0, -- [33]
+				0, -- [34]
+				25102, -- [35]
+				0, -- [36]
+				0, -- [37]
+				0, -- [38]
+				0, -- [39]
+				0, -- [40]
+				24566, -- [41]
+				0, -- [42]
+				55042, -- [43]
+				12510, -- [44]
+				110708, -- [45]
+				["max_value"] = 161760,
+				["__time"] = 1704550930,
+			},
+		},
+		[720] = {
+			["Raid Damage Done"] = {
+				24611, -- [1]
+				0, -- [2]
+				133041, -- [3]
+				46850, -- [4]
+				0, -- [5]
+				0, -- [6]
+				45762, -- [7]
+				40591, -- [8]
+				46698, -- [9]
+				106864, -- [10]
+				["max_value"] = 133041,
+				["__time"] = 1704550984,
+			},
+		},
+		[722] = {
+			["Raid Damage Done"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				12488, -- [4]
+				50215, -- [5]
+				29836, -- [6]
+				11569, -- [7]
+				46557, -- [8]
+				81691, -- [9]
+				86245, -- [10]
+				17836, -- [11]
+				17836, -- [12]
+				["max_value"] = 86245,
+				["__time"] = 1704551067,
+			},
+		},
+		[724] = {
+			["Raid Damage Done"] = {
+				27044, -- [1]
+				0, -- [2]
+				79732, -- [3]
+				0, -- [4]
+				153228, -- [5]
+				24845, -- [6]
+				27918, -- [7]
+				23837, -- [8]
+				2904, -- [9]
+				62511, -- [10]
+				51997, -- [11]
+				0, -- [12]
+				46908, -- [13]
+				29046, -- [14]
+				60591, -- [15]
+				22066, -- [16]
+				["max_value"] = 153228,
+				["__time"] = 1704551298,
+			},
+		},
+		[726] = {
+			["Raid Damage Done"] = {
+				0, -- [1]
+				80727, -- [2]
+				288169, -- [3]
+				0, -- [4]
+				276599, -- [5]
+				0, -- [6]
+				34896, -- [7]
+				125550, -- [8]
+				109408, -- [9]
+				27914, -- [10]
+				60181, -- [11]
+				88044, -- [12]
+				27918, -- [13]
+				0, -- [14]
+				13958, -- [15]
+				25920, -- [16]
+				13960, -- [17]
+				66916, -- [18]
+				60904, -- [19]
+				13960, -- [20]
+				106991, -- [21]
+				0, -- [22]
+				114141, -- [23]
+				24748, -- [24]
+				25367, -- [25]
+				0, -- [26]
+				63199, -- [27]
+				58874, -- [28]
+				23390, -- [29]
+				0, -- [30]
+				0, -- [31]
+				39417, -- [32]
+				["max_value"] = 288169,
+				["__time"] = 1704639850,
+			},
+		},
+		[728] = {
+			["Raid Damage Done"] = {
+				12004, -- [1]
+				11926, -- [2]
+				11603, -- [3]
+				0, -- [4]
+				89393, -- [5]
+				0, -- [6]
+				118662, -- [7]
+				6239, -- [8]
+				24316, -- [9]
+				18984, -- [10]
+				0, -- [11]
+				41243, -- [12]
+				21155, -- [13]
+				66651, -- [14]
+				["max_value"] = 118662,
+				["__time"] = 1704639909,
+			},
+		},
+		[730] = {
+			["Raid Damage Done"] = {
+				28083, -- [1]
+				0, -- [2]
+				14251, -- [3]
+				0, -- [4]
+				28154, -- [5]
+				0, -- [6]
+				46155, -- [7]
+				0, -- [8]
+				0, -- [9]
+				111656, -- [10]
+				131382, -- [11]
+				472517, -- [12]
+				14114, -- [13]
+				7801, -- [14]
+				7801, -- [15]
+				70072, -- [16]
+				0, -- [17]
+				["max_value"] = 472517,
+				["__time"] = 1704660930,
+			},
+		},
+		[732] = {
+			["Raid Damage Done"] = {
+				13727, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				14112, -- [6]
+				14246, -- [7]
+				0, -- [8]
+				32732, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				13481, -- [13]
+				0, -- [14]
+				0, -- [15]
+				172854, -- [16]
+				0, -- [17]
+				24676, -- [18]
+				0, -- [19]
+				72126, -- [20]
+				18506, -- [21]
+				18025, -- [22]
+				25696, -- [23]
+				24137, -- [24]
+				23928, -- [25]
+				["max_value"] = 172854,
+				["__time"] = 1704660985,
+			},
+		},
+		[734] = {
+			["Raid Damage Done"] = {
+				14240, -- [1]
+				60476, -- [2]
+				13906, -- [3]
+				0, -- [4]
+				13160, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				353365, -- [9]
+				19943, -- [10]
+				0, -- [11]
+				19812, -- [12]
+				279888, -- [13]
+				0, -- [14]
+				85266, -- [15]
+				["max_value"] = 353365,
+				["__time"] = 1704661017,
+			},
+		},
+		[736] = {
+			["Raid Damage Done"] = {
+				14536, -- [1]
+				0, -- [2]
+				0, -- [3]
+				25649, -- [4]
+				25321, -- [5]
+				0, -- [6]
+				46010, -- [7]
+				21725, -- [8]
+				87374, -- [9]
+				19960, -- [10]
+				68127, -- [11]
+				92866, -- [12]
+				0, -- [13]
+				["max_value"] = 92866,
+				["__time"] = 1704661405,
+			},
+		},
+		[738] = {
+			["Raid Damage Done"] = {
+				13866, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				14387, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				89735, -- [9]
+				0, -- [10]
+				0, -- [11]
+				174536, -- [12]
+				30128, -- [13]
+				65960, -- [14]
+				0, -- [15]
+				["max_value"] = 174536,
+				["__time"] = 1704661438,
+			},
+		},
+		[740] = {
+			["Raid Damage Done"] = {
+				12277, -- [1]
+				24117, -- [2]
+				["max_value"] = 24117,
+				["__time"] = 1704719305,
+			},
+		},
+		[742] = {
+			["Raid Damage Done"] = {
+				30201, -- [1]
+				20331, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				["max_value"] = 30201,
+				["__time"] = 1704719541,
+			},
+		},
+		[744] = {
+			["Raid Damage Done"] = {
+				203716, -- [1]
+				0, -- [2]
+				22017, -- [3]
+				134509, -- [4]
+				93741, -- [5]
+				26418, -- [6]
+				0, -- [7]
+				58367, -- [8]
+				30821, -- [9]
+				0, -- [10]
+				22015, -- [11]
+				22015, -- [12]
+				["max_value"] = 203716,
+				["__time"] = 1704720143,
+			},
+		},
+		[709] = {
+		},
+		[711] = {
+			["Raid Damage Done"] = {
+				12484, -- [1]
+				0, -- [2]
+				0, -- [3]
+				45577, -- [4]
+				87431, -- [5]
+				0, -- [6]
+				0, -- [7]
+				95284, -- [8]
+				226490, -- [9]
+				0, -- [10]
+				29348, -- [11]
+				24678, -- [12]
+				50203, -- [13]
+				0, -- [14]
+				["max_value"] = 226490,
+				["__time"] = 1704550557,
+			},
+		},
+		[713] = {
+			["Raid Damage Done"] = {
+				12625, -- [1]
+				12102, -- [2]
+				0, -- [3]
+				19071, -- [4]
+				0, -- [5]
+				0, -- [6]
+				24942, -- [7]
+				47897, -- [8]
+				22956, -- [9]
+				63198, -- [10]
+				42124, -- [11]
+				["max_value"] = 63198,
+				["__time"] = 1704550600,
+			},
+		},
+		[715] = {
+			["Raid Damage Done"] = {
+				24333, -- [1]
+				0, -- [2]
+				39445, -- [3]
+				0, -- [4]
+				37603, -- [5]
+				132983, -- [6]
+				24289, -- [7]
+				40177, -- [8]
+				0, -- [9]
+				0, -- [10]
+				293666, -- [11]
+				183175, -- [12]
+				143214, -- [13]
+				20711, -- [14]
+				0, -- [15]
+				221156, -- [16]
+				6905, -- [17]
+				15190, -- [18]
+				33096, -- [19]
+				["max_value"] = 293666,
+				["__time"] = 1704550736,
+			},
+		},
+		[717] = {
+			["Raid Damage Done"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				95039, -- [4]
+				72236, -- [5]
+				0, -- [6]
+				378729, -- [7]
+				160520, -- [8]
+				0, -- [9]
+				272720, -- [10]
+				34098, -- [11]
+				26459, -- [12]
+				33433, -- [13]
+				59892, -- [14]
+				69031, -- [15]
+				83795, -- [16]
+				51345, -- [17]
+				79737, -- [18]
+				35997, -- [19]
+				75428, -- [20]
+				["max_value"] = 378729,
+				["__time"] = 1704550863,
+			},
+		},
+		[719] = {
+			["Raid Damage Done"] = {
+				322, -- [1]
+				0, -- [2]
+				12178, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				39756, -- [7]
+				75010, -- [8]
+				0, -- [9]
+				57140, -- [10]
+				140597, -- [11]
+				59885, -- [12]
+				26477, -- [13]
+				18133, -- [14]
+				0, -- [15]
+				17961, -- [16]
+				127195, -- [17]
+				6132, -- [18]
+				6048, -- [19]
+				0, -- [20]
+				["max_value"] = 140597,
+				["__time"] = 1704550966,
+			},
+		},
+		[721] = {
+			["Raid Damage Done"] = {
+				52560, -- [1]
+				52008, -- [2]
+				62568, -- [3]
+				32931, -- [4]
+				33242, -- [5]
+				42390, -- [6]
+				24222, -- [7]
+				110357, -- [8]
+				6223, -- [9]
+				25296, -- [10]
+				19493, -- [11]
+				25474, -- [12]
+				50369, -- [13]
+				59292, -- [14]
+				5884, -- [15]
+				0, -- [16]
+				62423, -- [17]
+				23927, -- [18]
+				0, -- [19]
+				5713, -- [20]
+				5704, -- [21]
+				15651, -- [22]
+				21212, -- [23]
+				21903, -- [24]
+				1859, -- [25]
+				677, -- [26]
+				0, -- [27]
+				5641, -- [28]
+				10246, -- [29]
+				0, -- [30]
+				62725, -- [31]
+				46678, -- [32]
+				0, -- [33]
+				23319, -- [34]
+				41313, -- [35]
+				23475, -- [36]
+				38852, -- [37]
+				0, -- [38]
+				23477, -- [39]
+				["max_value"] = 110357,
+				["__time"] = 1704551041,
+			},
+		},
+		[723] = {
+			["Raid Damage Done"] = {
+				454, -- [1]
+				0, -- [2]
+				0, -- [3]
+				12687, -- [4]
+				12572, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				12551, -- [17]
+				0, -- [18]
+				11909, -- [19]
+				0, -- [20]
+				60144, -- [21]
+				97312, -- [22]
+				0, -- [23]
+				13950, -- [24]
+				13948, -- [25]
+				199992, -- [26]
+				0, -- [27]
+				["max_value"] = 199992,
+				["__time"] = 1704551107,
+			},
+		},
+		[725] = {
+			["Raid Damage Done"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				607476, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				["max_value"] = 607476,
+				["__time"] = 1704551311,
+			},
+		},
+		[727] = {
+			["Raid Damage Done"] = {
+				34423, -- [1]
+				23816, -- [2]
+				39463, -- [3]
+				0, -- [4]
+				54745, -- [5]
+				0, -- [6]
+				0, -- [7]
+				227445, -- [8]
+				0, -- [9]
+				0, -- [10]
+				192603, -- [11]
+				0, -- [12]
+				117804, -- [13]
+				61370, -- [14]
+				3263, -- [15]
+				7785, -- [16]
+				32394, -- [17]
+				39340, -- [18]
+				56127, -- [19]
+				0, -- [20]
+				95226, -- [21]
+				44027, -- [22]
+				0, -- [23]
+				48923, -- [24]
+				["max_value"] = 227445,
+				["__time"] = 1704639883,
+			},
+		},
+		[729] = {
+			["Raid Damage Done"] = {
+				11961, -- [1]
+				0, -- [2]
+				20108, -- [3]
+				124865, -- [4]
+				34839, -- [5]
+				99318, -- [6]
+				8373, -- [7]
+				62477, -- [8]
+				79765, -- [9]
+				110455, -- [10]
+				29034, -- [11]
+				58066, -- [12]
+				91033, -- [13]
+				44114, -- [14]
+				45335, -- [15]
+				94026, -- [16]
+				12397, -- [17]
+				0, -- [18]
+				22057, -- [19]
+				0, -- [20]
+				75066, -- [21]
+				22057, -- [22]
+				19181, -- [23]
+				22987, -- [24]
+				5641, -- [25]
+				76645, -- [26]
+				12973, -- [27]
+				38030, -- [28]
+				35498, -- [29]
+				25111, -- [30]
+				0, -- [31]
+				74382, -- [32]
+				29890, -- [33]
+				0, -- [34]
+				5641, -- [35]
+				21452, -- [36]
+				84154, -- [37]
+				50705, -- [38]
+				72016, -- [39]
+				["max_value"] = 124865,
+				["__time"] = 1704639998,
+			},
+		},
+		[731] = {
+			["Raid Damage Done"] = {
+				28257, -- [1]
+				27932, -- [2]
+				0, -- [3]
+				0, -- [4]
+				14116, -- [5]
+				28153, -- [6]
+				0, -- [7]
+				0, -- [8]
+				84900, -- [9]
+				111019, -- [10]
+				0, -- [11]
+				239953, -- [12]
+				0, -- [13]
+				81054, -- [14]
+				26371, -- [15]
+				49942, -- [16]
+				23926, -- [17]
+				["max_value"] = 239953,
+				["__time"] = 1704660951,
+			},
+		},
+		[733] = {
+			["Raid Damage Done"] = {
+				14053, -- [1]
+				40354, -- [2]
+				48143, -- [3]
+				["max_value"] = 48143,
+				["__time"] = 1704660994,
+			},
+		},
+		[735] = {
+			["Raid Damage Done"] = {
+				1532, -- [1]
+				32839, -- [2]
+				35922, -- [3]
+				0, -- [4]
+				0, -- [5]
+				113715, -- [6]
+				45608, -- [7]
+				157084, -- [8]
+				["max_value"] = 157084,
+				["__time"] = 1704661091,
+			},
+		},
+		[737] = {
+			["Raid Damage Done"] = {
+				13986, -- [1]
+				24686, -- [2]
+				47177, -- [3]
+				82310, -- [4]
+				0, -- [5]
+				48672, -- [6]
+				["max_value"] = 82310,
+				["__time"] = 1704661420,
+			},
+		},
+		[739] = {
+			["Raid Damage Done"] = {
+				20276, -- [1]
+				0, -- [2]
+				20029, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				10634, -- [10]
+				10667, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				["max_value"] = 20276,
+				["__time"] = 1704719302,
+			},
+		},
+		[741] = {
+			["Raid Damage Done"] = {
+				19770, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				4000, -- [6]
+				["max_value"] = 19770,
+				["__time"] = 1704719312,
+			},
+		},
+		[743] = {
+			["Raid Damage Done"] = {
+				41663, -- [1]
+				0, -- [2]
+				19972, -- [3]
+				0, -- [4]
+				103650, -- [5]
+				0, -- [6]
+				0, -- [7]
+				80690, -- [8]
+				223261, -- [9]
+				20994, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				["max_value"] = 223261,
+				["__time"] = 1704720129,
+			},
+		},
+		[745] = {
+			["Raid Damage Done"] = {
+				18045, -- [1]
+				["max_value"] = 18045,
+				["__time"] = 1704720155,
+			},
+		},
 	},
 	["encounter_spells"] = {
 		[369052] = {
@@ -747,8 +1543,8 @@ EncounterDetailsDB = {
 		[197454] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Avatar de la vengeance",
 		},
@@ -1297,14 +2093,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Oracle glissefiel",
 		},
-		[193633] = {
+		[125096] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archère ressuscitée",
+			["source"] = "Enorme quilen de pierre",
 		},
 		[192619] = {
 			["school"] = 16,
@@ -1313,12 +2108,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Courroux d'Azshara",
 		},
-		[123996] = {
-			["school"] = 8,
+		[387504] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Xuen",
+			["source"] = "Tsunami primordial",
 		},
 		[372718] = {
 			["school"] = 1,
@@ -1375,30 +2171,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Eric « l'Agile »",
 		},
-		[198080] = {
-			["school"] = 1,
+		[386559] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Khajin l'Inflexible",
+		},
+		[392375] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Esprit du loup",
+		},
+		[385451] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Vexécrase le Haineux",
-		},
-		[192094] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Seigneur de guerre Parjesh",
-		},
-		[196376] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Archidruide Glaidalis",
+			["source"] = "Goliath gobeur",
 		},
 		[217851] = {
 			["school"] = 8,
@@ -1424,12 +2220,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Goliath gobeur",
 		},
-		[197333] = {
-			["school"] = 1,
+		[188494] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Cordana Gangrechant",
 		},
 		[207887] = {
 			["school"] = 4,
@@ -1462,12 +2259,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ombre de Xavius",
 		},
-		[199919] = {
-			["school"] = 32,
+		[198386] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lanceur du vide sans-visage",
+			["source"] = "Archidruide Glaidalis",
 		},
 		[191855] = {
 			["school"] = 8,
@@ -1485,13 +2282,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Seigneur de guerre Parjesh",
 		},
-		[369049] = {
-			["school"] = 1,
+		[198833] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Gardien de caveau",
+			["source"] = "Latosius",
 		},
 		[389446] = {
 			["school"] = 64,
@@ -1511,46 +2309,43 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Garde Iridéus",
 		},
-		[59638] = {
-			["school"] = 16,
+		[384015] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Image miroir",
+			["source"] = "Garde Iridéus",
 		},
-		[192108] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[384014] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Garde Iridéus",
 		},
-		[201733] = {
+		[384524] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Garde Iridéus",
+		},
+		[199193] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Dantalionax",
-		},
-		[196354] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Archidruide Glaidalis",
-		},
-		[194956] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Amalgame d’âmes",
 		},
 		[369573] = {
 			["school"] = 1,
@@ -1561,20 +2356,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Baelog",
 		},
-		[191853] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[192675] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tirathon Saltheril",
+			["source"] = "Tornade mystique",
 		},
 		[216376] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+		},
+		[195108] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tisse-tempête glissefiel",
 		},
 		[383840] = {
 			["school"] = 64,
@@ -1585,23 +2387,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Garde Iridéus",
 		},
-		[200182] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ombre de Xavius",
-		},
-		[372623] = {
-			["school"] = 64,
+		[200898] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Sentinelle Talondras",
+			["source"] = "Inquisiteur Tourmentorum",
+		},
+		[389486] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Garde Iridéus",
 		},
 		[197478] = {
 			["school"] = 1,
@@ -1612,32 +2412,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illysanna Corvaltus",
 		},
-		[200404] = {
+		[207907] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dargrul",
-		},
-		[200732] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Dargrul",
-		},
-		[369563] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Baelog",
+			["source"] = "Talixae Voluteflamme",
 		},
 		[200289] = {
 			["school"] = 1,
@@ -1657,13 +2437,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sentinelle Talondras",
 		},
-		[195254] = {
+		[376049] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Chronoseigneur Déios",
+		},
+		[198820] = {
+			["school"] = 32,
+			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Amalgame d’âmes",
+			["source"] = "Latosius",
+		},
+		[202919] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tirathon Saltheril",
 		},
 		[374389] = {
 			["school"] = 8,
@@ -1674,27 +2469,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bufflouille curieuse",
 		},
-		[204899] = {
+		[212564] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Gardien des secrets mogu’shan",
-		},
-		[201902] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Mornœil cœur-corrompu",
-		},
-		[192522] = {
-			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Scor’roc",
+			["source"] = "Orbe tourmenteur",
+		},
+		[198073] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Vexécrase le Haineux",
 		},
 		[369791] = {
 			["school"] = 1,
@@ -1705,6 +2496,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Eric « l'Agile »",
+		},
+		[59638] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Image miroir",
 		},
 		[213576] = {
 			["school"] = 32,
@@ -1722,13 +2520,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Conseiller Melandrus",
 		},
-		[192631] = {
+		[193159] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Scor’roc",
+			["source"] = "Secousse",
 		},
 		[369792] = {
 			["school"] = 1,
@@ -1737,19 +2535,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Eric « l'Agile »",
 		},
-		[376319] = {
-			["school"] = 64,
+		[214771] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Chronoseigneur Déios",
+			["source"] = "Lanceur du vide sans-visage",
 		},
-		[193273] = {
+		[210136] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Idole rugissante",
+			["source"] = "Enorme quilen de pierre",
 		},
 		[375286] = {
 			["school"] = 4,
@@ -1768,33 +2569,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dargrul",
 		},
-		[196508] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Ecorcheur d’esprit dérangé",
-		},
-		[369677] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Olaf",
-		},
-		[191765] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Tirathon Saltheril",
-		},
 		[198963] = {
 			["school"] = 8,
 			["token"] = {
@@ -1804,23 +2578,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Naraxas",
 		},
-		[369110] = {
+		[375924] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Eric « l'Agile »",
+		},
+		[193171] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Secousse",
+		},
+		[221315] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ombre de Xavius",
+		},
+		[385181] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Pyron",
+			["source"] = "Goliath gobeur",
 		},
-		[199389] = {
+		[217011] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dresaron",
+			["source"] = "Foule en colère",
 		},
 		[196587] = {
 			["school"] = 32,
@@ -1842,21 +2639,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Trappeur pierre-lié",
 		},
-		[192633] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Courroux d'Azshara",
-		},
-		[199915] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Lanceur du vide sans-visage",
-		},
 		[201953] = {
 			["school"] = 8,
 			["token"] = {
@@ -1864,6 +2646,22 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Dominateur braise-chitine",
+		},
+		[201959] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Dominateur braise-chitine",
+		},
+		[198376] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Archidruide Glaidalis",
 		},
 		[197418] = {
 			["school"] = 1,
@@ -1874,13 +2672,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illysanna Corvaltus",
 		},
-		[221315] = {
+		[199629] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ombre de Xavius",
+			["source"] = "Naraxas",
 		},
 		[197546] = {
 			["school"] = 1,
@@ -1918,15 +2716,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rôdeur crache-goudron",
 		},
-		[385181] = {
+		[195188] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Goliath gobeur",
+			["source"] = "Braise",
 		},
 		[193267] = {
 			["school"] = 1,
@@ -1936,39 +2733,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Idole rugissante",
-		},
-		[193210] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Scor’roc",
-		},
-		[194966] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Amalgame d’âmes",
-		},
-		[192621] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Scor’roc",
-		},
-		[196078] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Amalgame d’âmes",
 		},
 		[196665] = {
 			["school"] = 64,
@@ -1985,21 +2749,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Embusqué cavepierre",
 		},
+		[199460] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Dresaron",
+		},
+		[196078] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Amalgame d’âmes",
+		},
 		[369033] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Pyron",
-		},
-		[26043] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Lanceur du vide sans-visage",
 		},
 		[202019] = {
 			["school"] = 32,
@@ -2013,6 +2785,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dantalionax",
 		},
+		[202913] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Tirathon Saltheril",
+		},
+		[26043] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lanceur du vide sans-visage",
+		},
+		[204574] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Chênecœur",
+		},
 		[197484] = {
 			["school"] = 1,
 			["token"] = {
@@ -2021,13 +2818,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illysanna Corvaltus",
 		},
-		[192050] = {
-			["school"] = 8,
+		[195332] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Serpentrix",
+			["source"] = "Braise",
 		},
 		[192502] = {
 			["school"] = 1,
@@ -2044,21 +2842,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Courroux d'Azshara",
 		},
-		[376325] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-		},
-		[200359] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ombre de Xavius",
-		},
 		[387559] = {
 			["school"] = 16,
 			["token"] = {
@@ -2067,13 +2850,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tsunami primordial",
 		},
-		[213583] = {
-			["school"] = 32,
+		[200359] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Cordana Gangrechant",
+			["source"] = "Ombre de Xavius",
+		},
+		[198379] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Archidruide Glaidalis",
+		},
+		[212561] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mastodonte touché par le Vide",
 		},
 		[200551] = {
 			["school"] = 8,
@@ -2083,14 +2884,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dargrul",
 		},
-		[197521] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[204905] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Illysanna Corvaltus",
+			["source"] = "Gardien des secrets mogu’shan",
 		},
 		[198635] = {
 			["school"] = 1,
@@ -2103,15 +2903,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kur’talos Corvaltus",
 		},
-		[192504] = {
+		[214988] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tirathon Saltheril",
+			["source"] = "Esprit de la vengeance",
 		},
 		[183433] = {
 			["school"] = 1,
@@ -2164,75 +2963,72 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Roi Barbe-Fond",
 		},
-		[214988] = {
+		[192504] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Tirathon Saltheril",
+		},
+		[376319] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Chronoseigneur Déios",
+		},
+		[213583] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Cordana Gangrechant",
+		},
+		[192631] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Scor’roc",
+		},
+		[369677] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Esprit de la vengeance",
+			["source"] = "Olaf",
 		},
-		[204905] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Gardien des secrets mogu’shan",
-		},
-		[212561] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mastodonte touché par le Vide",
-		},
-		[198379] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Archidruide Glaidalis",
-		},
-		[195332] = {
+		[197521] = {
 			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Braise",
-		},
-		[199460] = {
-			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Dresaron",
+			["source"] = "Illysanna Corvaltus",
 		},
-		[204574] = {
-			["school"] = 1,
+		[376325] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
+		[192050] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Chênecœur",
-		},
-		[202913] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Tirathon Saltheril",
+			["source"] = "Serpentrix",
 		},
 		[214989] = {
 			["school"] = 1,
@@ -2251,46 +3047,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sentinelle Talondras",
 		},
-		[195188] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[192633] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Braise",
+			["source"] = "Courroux d'Azshara",
 		},
-		[199629] = {
+		[192621] = {
 			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Naraxas",
-		},
-		[201959] = {
-			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Dominateur braise-chitine",
+			["source"] = "Scor’roc",
 		},
-		[198376] = {
-			["school"] = 1,
+		[199915] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Archidruide Glaidalis",
+			["source"] = "Lanceur du vide sans-visage",
 		},
-		[217011] = {
-			["school"] = 1,
+		[194966] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Amalgame d’âmes",
+		},
+		[193210] = {
+			["school"] = 4,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Foule en colère",
+			["source"] = "Scor’roc",
 		},
 		[207261] = {
 			["school"] = 64,
@@ -2308,20 +3103,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vexécrase le Haineux",
 		},
-		[193171] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Secousse",
-		},
-		[375924] = {
+		[199389] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Eric « l'Agile »",
+			["source"] = "Dresaron",
+		},
+		[369110] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Pyron",
 		},
 		[193209] = {
 			["school"] = 1,
@@ -2332,30 +3130,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Scor’roc",
 		},
-		[210136] = {
+		[193273] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Idole rugissante",
+		},
+		[191765] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Tirathon Saltheril",
+		},
+		[196508] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Enorme quilen de pierre",
-		},
-		[214771] = {
-			["school"] = 32,
-			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Lanceur du vide sans-visage",
-		},
-		[193159] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Secousse",
+			["source"] = "Ecorcheur d’esprit dérangé",
 		},
 		[203685] = {
 			["school"] = 1,
@@ -2378,78 +3176,80 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Roi Barbe-Fond",
 		},
-		[198073] = {
+		[192522] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Scor’roc",
+		},
+		[204899] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Vexécrase le Haineux",
+			["source"] = "Gardien des secrets mogu’shan",
 		},
-		[212564] = {
+		[195254] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Orbe tourmenteur",
+			["source"] = "Amalgame d’âmes",
 		},
-		[202919] = {
+		[201902] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Tirathon Saltheril",
+			["source"] = "Mornœil cœur-corrompu",
 		},
-		[207907] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Talixae Voluteflamme",
-		},
-		[198820] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Latosius",
-		},
-		[376049] = {
+		[369563] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Chronoseigneur Déios",
+			["source"] = "Baelog",
 		},
-		[389486] = {
-			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Garde Iridéus",
-		},
-		[200898] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Inquisiteur Tourmentorum",
-		},
-		[195108] = {
+		[200732] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tisse-tempête glissefiel",
+			["source"] = "Dargrul",
+		},
+		[372623] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Sentinelle Talondras",
+		},
+		[200404] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dargrul",
+		},
+		[200182] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ombre de Xavius",
 		},
 		[212565] = {
 			["school"] = 1,
@@ -2459,12 +3259,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Orbe tourmenteur",
 		},
-		[192675] = {
-			["school"] = 64,
+		[191853] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Tornade mystique",
+			["source"] = "Tirathon Saltheril",
 		},
 		[387571] = {
 			["school"] = 16,
@@ -2477,43 +3279,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tsunami primordial",
 		},
-		[199193] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[194956] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Dantalionax",
+			["source"] = "Amalgame d’âmes",
 		},
-		[384524] = {
+		[196354] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Archidruide Glaidalis",
+		},
+		[201733] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Garde Iridéus",
+			["source"] = "Dantalionax",
 		},
-		[384014] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[192108] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Garde Iridéus",
-		},
-		[384015] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Garde Iridéus",
 		},
 		[200238] = {
 			["school"] = 32,
@@ -2534,29 +3332,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tsunami primordial",
 		},
-		[198833] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Latosius",
-		},
-		[198386] = {
+		[369049] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Archidruide Glaidalis",
+			["source"] = "Gardien de caveau",
 		},
-		[188494] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[199919] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Lanceur du vide sans-visage",
+		},
+		[197333] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Cordana Gangrechant",
 		},
 		[204646] = {
 			["school"] = 1,
@@ -2573,30 +3369,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ombre de Xavius",
 		},
-		[385451] = {
-			["school"] = 8,
+		[196376] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Archidruide Glaidalis",
+		},
+		[192094] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Seigneur de guerre Parjesh",
+		},
+		[198080] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Goliath gobeur",
-		},
-		[392375] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Esprit du loup",
-		},
-		[386559] = {
-			["school"] = 16,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Khajin l'Inflexible",
+			["source"] = "Vexécrase le Haineux",
 		},
 		[199345] = {
 			["school"] = 1,
@@ -2616,21 +3412,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Goliath gobeur",
 		},
-		[387504] = {
-			["school"] = 16,
+		[123996] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tsunami primordial",
+			["source"] = "Xuen",
 		},
-		[125096] = {
+		[193633] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Enorme quilen de pierre",
+			["source"] = "Archère ressuscitée",
 		},
+	},
+	["emotes"] = {
+		{
+			["boss"] = "Tsunami primordial",
+		}, -- [1]
+		{
+			["boss"] = "Khajin l’Inflexible",
+		}, -- [2]
+		{
+			["boss"] = "Goliath gobeur",
+		}, -- [3]
 	},
 }
